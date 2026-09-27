@@ -1,0 +1,4 @@
+mcp/node_modules/
+mcp/state/*.json
+!mcp/state/.gitkeep
+.DS_Store
