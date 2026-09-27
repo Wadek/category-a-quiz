@@ -1,0 +1,27 @@
+{
+  "name": "Category A Finland Motorcycle Quiz",
+  "short_name": "Cat A Quiz",
+  "description": "Anki-style spaced repetition practice for Finnish Category A motorcycle theory (en-FI).",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1220",
+  "theme_color": "#0f4c81",
+  "lang": "en-FI",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle"]
+}
