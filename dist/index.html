@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-FI">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f4c81" />
+  <meta name="description" content="Anki-style Category A Finland motorcycle theory practice (en-FI). Original cards grounded in Traficom / Tieliikennelaki themes." />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <title>Category A Quiz · Finland Motorcycle</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="app-bar">
+    <div>
+      <h1>Category A Quiz</h1>
+      <p class="sub">Finland motorcycle theory · en-FI · SM-2</p>
+    </div>
+    <span class="badge" id="due-badge">— due</span>
+  </header>
+
+  <main>
+    <section id="panel-study" class="panel active">
+      <label class="field" for="topic-filter">Topic filter</label>
+      <select id="topic-filter" class="select"></select>
+      <div id="study-root" style="margin-top:12px">
+        <div class="card empty">Loading cards…</div>
+      </div>
+      <p class="disclaimer">Original practice questions aligned with Traficom Category A theory topics and Tieliikennelaki themes. Not official Teoriakoe items and not from proprietary CAP/Webauto banks.</p>
+    </section>
+
+    <section id="panel-dash" class="panel">
+      <div class="card">
+        <h2 style="margin:0 0 12px;font-size:1.05rem">Progress</h2>
+        <div id="dash-stats"></div>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h2 style="margin:0 0 8px;font-size:1.05rem">Weak topics</h2>
+        <div id="dash-weak"></div>
+      </div>
+      <div class="btn-row">
+        <button class="ghost" id="btn-install-help">Install as PWA</button>
+        <button class="danger" id="btn-reset">Reset progress</button>
+      </div>
+    </section>
+
+    <section id="panel-topics" class="panel">
+      <div class="card">
+        <h2 style="margin:0 0 8px;font-size:1.05rem">Topic drill</h2>
+        <label class="field" for="drill-topic">Start a focused drill</label>
+        <select id="drill-topic" class="select"></select>
+        <div class="btn-row">
+          <button class="primary" id="start-drill">Start drill</button>
+        </div>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h2 style="margin:0 0 8px;font-size:1.05rem">All topics</h2>
+        <div id="topic-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="tabs" aria-label="Main">
+    <button type="button" class="active" data-panel="study">Study</button>
+    <button type="button" data-panel="dash">Dashboard</button>
+    <button type="button" data-panel="topics">Topics</button>
+  </nav>
+
+  <script src="./js/srs.js"></script>
+  <script src="./js/storage.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
