@@ -14,7 +14,8 @@
     visibility: 'Visibility',
     mechanics: 'Mechanics',
     other_users: 'Other road users',
-    risk: 'Risk awareness'
+    risk: 'Risk awareness',
+    diagrams: 'Situation diagrams'
   };
 
   let deck = [];
@@ -155,31 +156,86 @@
     renderCard(current);
   }
 
+  function isDiagramCard(card) {
+    return !!(card && (card.kind === 'drawing' || card.type === 'diagram' || card.diagramSvg || card.situation));
+  }
+
   function renderCard(card) {
     const root = $('#study-root');
     const topic = TOPIC_LABELS[card.topic] || card.topic;
-    let body = '';
-    if (card.type === 'mc') {
-      body = `<div class="options">${card.options
+    const diagram = isDiagramCard(card);
+    const typeLabel = diagram ? 'Situation diagram' : card.type === 'mc' ? 'Multiple choice' : 'True / False';
+
+    let diagramBlock = '';
+    if (diagram && card.diagramSvg) {
+      diagramBlock = `<div class="diagram-frame" aria-hidden="false">${card.diagramSvg}</div>`;
+    }
+
+    let situationBlock = '';
+    if (diagram && card.situation) {
+      situationBlock = `<p class="situation"><span class="situation-label">Situation</span>${escapeHtml(card.situation)}</p>`;
+    }
+
+    const questionHtml = `<p class="question">${escapeHtml(card.question)}</p>`;
+
+    let optionsHtml = '';
+    if (card.type === 'mc' || card.type === 'diagram') {
+      optionsHtml = `<div class="options" id="options-block">${(card.options || [])
         .map(
           (o, i) =>
             `<button class="option" data-i="${i}"><strong>${String.fromCharCode(65 + i)}.</strong> ${escapeHtml(o)}</button>`
         )
         .join('')}</div>`;
     } else {
-      body = `<div class="tf-row">
+      optionsHtml = `<div class="tf-row" id="options-block">
         <button class="tf-btn" data-tf="true">True</button>
         <button class="tf-btn" data-tf="false">False</button>
       </div>`;
     }
-    root.innerHTML = `<div class="card">
-      <div class="topic-pill">${escapeHtml(topic)} · ${card.type === 'mc' ? 'Multiple choice' : 'True / False'}</div>
-      <p class="question">${escapeHtml(card.question)}</p>
-      ${body}
+
+    let revealHtml = '';
+    if (diagram) {
+      revealHtml = `<div class="btn-row" id="study-situation-row">
+        <button class="primary" id="btn-studied-situation" type="button">I've studied the situation</button>
+      </div>
+      <div id="answer-area" hidden>
+        ${questionHtml}
+        ${optionsHtml}
+      </div>`;
+      // For diagrams: show situation+diagram first; question with options after reveal
+      root.innerHTML = `<div class="card">
+      <div class="topic-pill">${escapeHtml(topic)} · ${typeLabel}</div>
+      ${diagramBlock}
+      ${situationBlock}
+      ${revealHtml}
       <div id="after" hidden></div>
     </div>`;
 
-    if (card.type === 'mc') {
+      const reveal = () => {
+        const row = $('#study-situation-row');
+        const area = $('#answer-area');
+        if (row) row.hidden = true;
+        if (area) area.hidden = false;
+        bindAnswerButtons(card);
+      };
+      $('#btn-studied-situation')?.addEventListener('click', reveal);
+      return;
+    }
+
+    root.innerHTML = `<div class="card">
+      <div class="topic-pill">${escapeHtml(topic)} · ${typeLabel}</div>
+      ${diagramBlock}
+      ${situationBlock}
+      ${questionHtml}
+      ${optionsHtml}
+      <div id="after" hidden></div>
+    </div>`;
+    bindAnswerButtons(card);
+  }
+
+  function bindAnswerButtons(card) {
+    const root = $('#study-root');
+    if (card.type === 'mc' || card.type === 'diagram') {
       root.querySelectorAll('.option').forEach((btn) => {
         btn.addEventListener('click', () => onAnswer(Number(btn.dataset.i)));
       });
@@ -195,7 +251,7 @@
     answered = true;
     const card = current;
     let correct;
-    if (card.type === 'mc') {
+    if (card.type === 'mc' || card.type === 'diagram' || Array.isArray(card.options)) {
       correct = value === card.answer;
       rootDisableOptions(value, card.answer);
     } else {

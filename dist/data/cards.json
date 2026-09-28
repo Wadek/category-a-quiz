@@ -2,16 +2,17 @@
   "meta": {
     "title": "Category A Finland Motorcycle Theory Practice",
     "locale": "en-FI",
-    "version": "1.0.0",
-    "cardCount": 123,
-    "disclaimer": "Original practice questions grounded in Traficom / Tieliikennelaki themes. Not official Teoriakoe items. Not from CAP/Webauto banks.",
+    "version": "1.1.0",
+    "cardCount": 148,
+    "disclaimer": "Original practice questions grounded in Traficom / Tieliikennelaki themes. Not official Teoriakoe items. Not from CAP/Webauto banks. Diagram cards are original schematics for practice only.",
     "sources": [
       "Traficom: Driving examination / Kuljettajantutkinto",
       "Traficom: Moottoripyörän ajokortin hankkiminen",
       "Tieliikennelaki 729/2018 (Finlex)",
       "Traficom theory-test regulation topic areas for A1/A2/A",
       "Väylävirasto winter speed practice; Liikenneturva/Poliisi right-of-way themes"
-    ]
+    ],
+    "diagramCardCount": 25
   },
   "topics": [
     "alcohol",
@@ -27,7 +28,8 @@
     "signs",
     "speed",
     "visibility",
-    "winter"
+    "winter",
+    "diagrams"
   ],
   "cards": [
     {
@@ -1562,6 +1564,481 @@
       "question": "Keeping up with a faster group beyond your skill or the speed limit is a common preventable motorcycle risk.",
       "answer": true,
       "explanation": "Ride your own ride; group pressure is a recognised risk factor."
+    },
+    {
+      "id": "dg-001",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki 729/2018 — väistämisvelvollisuus oikealta (uncontrolled equal roads)",
+      "situation": "Uncontrolled crossroads. Roads of equal importance. You (motorcycle YOU) approach from the south. Car A approaches from the east (your right). Both intend to go straight.",
+      "question": "Who should go first?",
+      "options": [
+        "YOU — motorcycles always have priority",
+        "Car A — traffic from the right has priority",
+        "Whoever arrives first, regardless of side",
+        "Car A must stop because YOU are smaller"
+      ],
+      "answer": 1,
+      "explanation": "At an uncontrolled junction of equal roads in Finland, you must give way to traffic coming from the right (väistämisvelvollisuus oikealta tulevaa kohtaan). Car A is on your right, so A goes first.",
+      "diagramAscii": "Crossroads: YOU↑ from S; A← from E (your right). Equal roads, no signs.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"160,175 151,157 169,157\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"167\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-002",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — give-way (kärkikolmio) at T-junction",
+      "situation": "T-junction. You approach from the stem (south) with a give-way triangle. Cars A (from left/west) and B (from right/east) travel on the through road.",
+      "question": "What must YOU do?",
+      "options": [
+        "Enter as soon as the nearer gap looks big enough for a car",
+        "Give way to both A and B on the through road, then proceed when clear",
+        "Only give way to B because they are on the right",
+        "Sound the horn and filter between A and B"
+      ],
+      "answer": 1,
+      "explanation": "A give-way sign (kärkikolmio) means you must yield to traffic on the road you are entering. Both A and B on the through road have priority over you.",
+      "diagramAscii": "T-junction: YOU↑ from S with yield; A→ from W; B← from E on through road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"150\" width=\"60\" height=\"90\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"46.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"60\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"246.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><polygon points=\"160,178 151,160 169,160\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"170\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-003",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — STOP sign (pakollinen pysäyttäminen)",
+      "situation": "You approach a STOP line from the south. Car A is already in the junction from the west, continuing east. Car B waits opposite you.",
+      "question": "Correct action for YOU?",
+      "options": [
+        "Slow-roll through if A looks far enough",
+        "Come to a complete stop at the line, then go only when the way is clear",
+        "Stop only if another vehicle is already inside the junction",
+        "Wave B through, then go without stopping"
+      ],
+      "answer": 1,
+      "explanation": "A STOP sign requires a full stop at the stop line (or before entering if there is no line), then proceed only when it does not endanger or hinder others.",
+      "diagramAscii": "Crossroads: YOU↑ STOP from S; A→ already crossing from W; B waiting from N.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,191 151,215 169,215\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"205\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"227\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"76.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"90\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"151.0\" y=\"31.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"23.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><rect x=\"151\" y=\"159\" width=\"18\" height=\"18\" rx=\"3\" fill=\"#c0392b\"/><text x=\"160\" y=\"172\" fill=\"#fff\" font-size=\"7\" text-anchor=\"middle\" font-weight=\"700\">STOP</text><line x1=\"135\" y1=\"155\" x2=\"185\" y2=\"155\" stroke=\"#e8eef7\" stroke-width=\"3\"/></svg>"
+    },
+    {
+      "id": "dg-004",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — turning left vs oncoming traffic",
+      "situation": "You (YOU) travel north and want to turn left. Oncoming car A travels south straight through. No traffic lights.",
+      "question": "Who goes first?",
+      "options": [
+        "YOU turn left first — left turn has priority",
+        "Car A going straight — you give way before turning left across their path",
+        "Both enter together and weave",
+        "Whoever flashes headlights first"
+      ],
+      "answer": 1,
+      "explanation": "When turning left you must give way to oncoming traffic going straight (and usually to those turning right). Complete the left turn only when it does not hinder A.",
+      "diagramAscii": "YOU↑ turning left; oncoming A↓ going straight.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"148,171 139,195 157,195\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"148\" cy=\"185\" r=\"3\" fill=\"#041018\"/><text x=\"148\" y=\"207\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"163.0\" y=\"36.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"172\" y=\"28.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><path d=\"M148,170 Q148,120 110,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"95\" y=\"110\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">← L</text></svg>"
+    },
+    {
+      "id": "dg-005",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — turning right; pedestrians on exiting road",
+      "situation": "You turn right from south onto the eastbound road. Pedestrian P is on the zebra across the road you are entering. Car A approaches from the west on that road.",
+      "question": "What is the correct order?",
+      "options": [
+        "YOU cut ahead of P, then negotiate with A",
+        "Give way to pedestrian P (and check cyclists); also do not force A to brake hard",
+        "A must stop for you because you are already turning",
+        "Motorcycles may roll through zebras without yielding"
+      ],
+      "answer": 1,
+      "explanation": "When turning you must give unobstructed passage to pedestrians on the crossing of the road you enter, and you must not endanger traffic on that road. Yield to P; enter only when safe relative to A.",
+      "diagramAscii": "YOU↑ turning right; zebra + P on exit road; A→ from W.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><rect x=\"190\" y=\"95.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"105.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"115.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"125.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"135.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"215\" cy=\"116\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"212\" y=\"120\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"215\" y=\"138\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"36.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"50\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><path d=\"M160,170 Q160,140 200,130\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-006",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Finnish roundabout practice — yield to traffic in the circle",
+      "situation": "You approach a single-lane roundabout from the south. Car A is already circulating, coming from your left toward your entry.",
+      "question": "What should YOU do?",
+      "options": [
+        "Enter immediately — roundabout traffic always yields to entrants",
+        "Give way to A already in the roundabout, then enter when there is a safe gap",
+        "Stop in the circle to let A pass outside",
+        "Lane-split past A inside the roundabout"
+      ],
+      "answer": 1,
+      "explanation": "At a Finnish roundabout you normally give way to traffic already in the circulatory carriageway. Enter only with a safe gap; signal appropriately when exiting.",
+      "diagramAscii": "Roundabout: YOU↑ at S entry; A circulating from W toward S.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"48\" fill=\"#3a4a62\" stroke=\"#6b7d96\" stroke-width=\"2\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"22\" fill=\"#1a2838\" stroke=\"#8a9bb0\" stroke-width=\"1\"/>\n    <defs><marker id=\"ra\" markerWidth=\"5\" markerHeight=\"5\" refX=\"4\" refY=\"2.5\" orient=\"auto\"><path d=\"M0,0 L5,2.5 L0,5 Z\" fill=\"#9fb0c8\"/></marker></defs>\n    <path d=\"M160,98 A22,22 0 0,1 182,120\" fill=\"none\" stroke=\"#9fb0c8\" stroke-width=\"2\" marker-end=\"url(#ra)\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"86.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"100\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"160,185 151,167 169,167\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"177\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-007",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Roundabout exit — signal and path",
+      "situation": "You are in a single-lane roundabout and will take the first exit to the right (east). Car B is waiting to enter from the east arm.",
+      "question": "Best practice?",
+      "options": [
+        "Stay silent on indicators; B must guess",
+        "Indicate right in good time before the exit; leave space so B is not blocked unfairly at the line",
+        "Stop inside the circle until B enters",
+        "Cut across the central island to shorten the exit"
+      ],
+      "answer": 1,
+      "explanation": "Signal your exit clearly and in time. Keep a predictable line in the lane; do not stop abruptly in the circle. B yields to circulating traffic but benefits from clear signalling.",
+      "diagramAscii": "YOU in circle exiting E; B waiting on east arm.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"48\" fill=\"#3a4a62\" stroke=\"#6b7d96\" stroke-width=\"2\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"22\" fill=\"#1a2838\" stroke=\"#8a9bb0\" stroke-width=\"1\"/>\n    <defs><marker id=\"ra\" markerWidth=\"5\" markerHeight=\"5\" refX=\"4\" refY=\"2.5\" orient=\"auto\"><path d=\"M0,0 L5,2.5 L0,5 Z\" fill=\"#9fb0c8\"/></marker></defs>\n    <path d=\"M160,98 A22,22 0 0,1 182,120\" fill=\"none\" stroke=\"#9fb0c8\" stroke-width=\"2\" marker-end=\"url(#ra)\"/><polygon points=\"204,120 180,111 180,129\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"190\" cy=\"120\" r=\"3\" fill=\"#041018\"/><text x=\"190\" y=\"142\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"256.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"270\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><path d=\"M185,120 L230,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-008",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Priority to the right — four-way, two others",
+      "situation": "Uncontrolled equal crossroads. YOU from south going straight. Car A from east going straight. Car B from west going straight.",
+      "question": "Who has priority over YOU?",
+      "options": [
+        "Nobody — YOU go first",
+        "Car A (from your right); you give way to A. B gives way to you",
+        "Both A and B always go before any motorcycle",
+        "B only, because they are larger"
+      ],
+      "answer": 1,
+      "explanation": "Give way to the right: A is on your right so A has priority over you. You are on B’s right, so B should give way to you. Resolve conflicts carefully — never assume others know the rule.",
+      "diagramAscii": "YOU↑ S; A← E (your right); B→ W.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"56.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"70\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text></svg>"
+    },
+    {
+      "id": "dg-009",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Tieliikennelaki — suojatie (zebra) duties",
+      "situation": "You ride north on a straight road. A zebra crossing lies ahead. Pedestrian P has stepped onto the crossing from the left. Car A behind you.",
+      "question": "Correct behaviour?",
+      "options": [
+        "Accelerate to clear before P reaches your lane",
+        "Slow/stop to give P unobstructed passage; check mirrors so A is not surprised",
+        "Sound horn so P waits on the island",
+        "Ride on the pavement to go around P"
+      ],
+      "answer": 1,
+      "explanation": "Drivers must give pedestrians unobstructed passage on a zebra crossing. Approach so you can stop; be predictable for following traffic.",
+      "diagramAscii": "Road N-S: YOU↑; zebra ahead; P on crossing; A behind.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"100.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"124.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"148.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"172.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"196.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"115\" cy=\"108\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"112\" y=\"112\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"115\" y=\"130\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><polygon points=\"160,176 151,200 169,200\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"190\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"212\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"216.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"256.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-010",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Cyclists at junctions / crossings — Finnish practice themes",
+      "situation": "You turn right from south to east. A cyclist (Cyc) rides on the cycle track parallel, approaching the crossing of the road you enter from your right.",
+      "question": "What should YOU expect?",
+      "options": [
+        "Cyclists never have any priority when you turn",
+        "Check carefully and be prepared to give way — turning traffic must not endanger cyclists crossing the road you enter",
+        "Always cut in front; bikes must stop for motors",
+        "Only cars yield to bikes; motorcycles are exempt"
+      ],
+      "answer": 1,
+      "explanation": "When turning onto a road you must not endanger pedestrians or cyclists crossing that road. Scan the cycle track/crossing and yield as required by the situation and markings.",
+      "diagramAscii": "YOU↑ turning right; Cyc approaching crossing on exit road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><rect x=\"190\" y=\"100.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"108.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"116.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"124.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"132.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"224\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><line x1=\"224\" y1=\"80\" x2=\"236\" y2=\"80\" stroke=\"#1abc9c\" stroke-width=\"2\"/><text x=\"230\" y=\"96\" fill=\"#1abc9c\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">Cyc</text><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><path d=\"M160,170 Q170,140 210,130\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-011",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Traficom A topics — conspicuity / lane position",
+      "situation": "Urban two-lane road, traffic ahead slow. You need to be seen by car A waiting to pull out from a side road on the right.",
+      "question": "Best lane position for visibility to A?",
+      "options": [
+        "Hug the far-left gutter, fully hidden behind parked vans",
+        "A clear mid-to-left position in your lane so A can see you past other vehicles — not buried in A’s blind spot",
+        "Ride on the centre line against oncoming traffic",
+        "Always filter the extreme right edge next to A’s bumper"
+      ],
+      "answer": 1,
+      "explanation": "Choose a position that maximises being seen (and seeing). Mid/left in your lane often opens the sightline to side-road drivers; avoid hiding behind larger vehicles.",
+      "diagramAscii": "YOU in lane; side road with A waiting right; parked cars blocking if YOU hug kerb.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"110\" y=\"0\" width=\"100\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"210\" y=\"90\" width=\"110\" height=\"50\" fill=\"#3a4a62\"/><rect x=\"85\" y=\"40\" width=\"22\" height=\"40\" fill=\"#5a6a80\"/><rect x=\"85\" y=\"150\" width=\"22\" height=\"40\" fill=\"#5a6a80\"/><polygon points=\"145,166 136,190 154,190\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"145\" cy=\"180\" r=\"3\" fill=\"#041018\"/><text x=\"145\" y=\"202\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"246.0\" y=\"106.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"136.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><text x=\"145\" y=\"30\" fill=\"#9fb0c8\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">better sightline</text></svg>"
+    },
+    {
+      "id": "dg-012",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Motorcycle lane position — filtering / queue",
+      "situation": "Queue of cars in a single lane approaching lights. Gap exists between stopped cars A and B. Oncoming lane is clear of opposing traffic but not a legal overtake zone for speed.",
+      "question": "Responsible filtering approach?",
+      "options": [
+        "High speed down the oncoming lane regardless of space",
+        "Only if legal and safe locally: slow, controlled progress with cover of brakes, expecting doors/gaps; never force between mirrors",
+        "Rev loudly so cars must open a corridor",
+        "Jump the kerb onto the pavement"
+      ],
+      "answer": 1,
+      "explanation": "Filtering is a high-risk choice. Where permitted and safe, keep speed low, watch for pedestrians and opening doors, and be ready to stop. Do not use the pavement or endanger oncoming traffic.",
+      "diagramAscii": "Queue A then B; YOU considering slow filter past nearside/offside with care.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"120\" y=\"0\" width=\"80\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"151.0\" y=\"46.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"38.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"151.0\" y=\"106.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"98.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><polygon points=\"195,166 186,190 204,190\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"195\" cy=\"180\" r=\"3\" fill=\"#041018\"/><text x=\"195\" y=\"202\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><text x=\"55\" y=\"120\" fill=\"#9fb0c8\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">slow filter?</text></svg>"
+    },
+    {
+      "id": "dg-013",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Lane position before left turn — see and be seen",
+      "situation": "You prepare a left turn at lights (or junction). Car A behind. Oncoming B. You currently sit far right in your lane.",
+      "question": "Better position before turning left?",
+      "options": [
+        "Stay glued to the right kerb until the last metre",
+        "Move early toward the left part of your lane (when safe) so your left-turn intent is clear and you see oncoming B better",
+        "Straddle the centre continuously for 200 m",
+        "Turn from the bicycle lane without looking"
+      ],
+      "answer": 1,
+      "explanation": "Adopt a leftward position in your lane in good time (when safe and lawful) so others read your intention and you get a better view of oncoming traffic before turning.",
+      "diagramAscii": "YOU shifting left in lane before left turn; B oncoming; A behind.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"175,176 166,200 184,200\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"175\" cy=\"190\" r=\"3\" fill=\"#041018\"/><text x=\"175\" y=\"212\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"216.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"256.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"136.0\" y=\"31.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"145\" y=\"23.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><path d=\"M175,175 Q175,130 120,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-014",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Merging / slip road — acceleration lane themes",
+      "situation": "You are on a slip road merging into a carriageway. Car A is on the main carriageway alongside your merge zone.",
+      "question": "Correct merge mindset?",
+      "options": [
+        "Assume A must always brake hard for you",
+        "Use the acceleration lane to match speed, mirror/shoulder-check, and merge without forcing A into an emergency swerve",
+        "Stop at the end of the slip road every time, even if empty",
+        "Enter diagonally across all lanes at once"
+      ],
+      "answer": 1,
+      "explanation": "Build appropriate speed in the acceleration lane, check blind spots, and merge smoothly into a gap. Do not rely on others making emergency room for you.",
+      "diagramAscii": "Slip road YOU↗ merging; A on main carriageway.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"100\" y=\"0\" width=\"70\" height=\"240\" fill=\"#3a4a62\"/>\n    <path d=\"M0,200 L100,120 L100,180 L40,240 Z\" fill=\"#3a4a62\"/>\n    <line x1=\"135\" y1=\"0\" x2=\"135\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"50,186 41,210 59,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"50\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"126.0\" y=\"66.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"135\" y=\"58.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><path d=\"M55,185 Q90,150 125,140\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-015",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Uncontrolled junction — YOU on the right of another",
+      "situation": "Equal uncontrolled crossroads. YOU from east going west. Car A from south going north. Paths cross.",
+      "question": "Who should yield?",
+      "options": [
+        "YOU yield to A",
+        "Car A yields to YOU — you are coming from A’s right",
+        "Always the motorcycle yields",
+        "Flash headlights to cancel the rule"
+      ],
+      "answer": 1,
+      "explanation": "Priority to the right: from A’s viewpoint you approach from the right, so A should give way to you. Still approach ready to stop if A does not comply.",
+      "diagramAscii": "YOU← from E; A↑ from S. YOU is on A’s right.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"236,120 260,111 260,129\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"250\" cy=\"120\" r=\"3\" fill=\"#041018\"/><text x=\"250\" y=\"142\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"186.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"226.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-016",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Give-way vs through traffic turning",
+      "situation": "YOU on a minor road with yield, turning left onto the major road. Car A approaches from the right on the major road; car B from the left.",
+      "question": "When may YOU turn left?",
+      "options": [
+        "As soon as you reach the give-way line",
+        "Only when both directions on the major road are clear enough for a safe left turn (yield to A and B)",
+        "Immediately after A passes, ignoring B",
+        "Whenever your front wheel is past the line"
+      ],
+      "answer": 1,
+      "explanation": "From a give-way approach you must not hinder traffic on the major road. A left turn needs adequate gaps in both directions.",
+      "diagramAscii": "YOU↑ yield turning left; A← and B→ on major road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"150\" width=\"60\" height=\"90\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"246.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"46.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"60\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><polygon points=\"160,178 151,160 169,160\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"170\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text><path d=\"M160,180 Q160,140 100,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-017",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Pedestrian crossing + motorcycle approach speed",
+      "situation": "YOU approach a zebra. Pedestrian P stands at the kerb looking ready to cross. Car A is oncoming.",
+      "question": "Safest plan?",
+      "options": [
+        "Maintain speed — standing pedestrians never cross",
+        "Cover brakes, reduce speed, and be ready to stop so P can cross; watch A’s behaviour too",
+        "Wave P across while blocking A aggressively",
+        "Ride between P and the kerb"
+      ],
+      "answer": 1,
+      "explanation": "Approach crossings expecting pedestrians to step out. Adjust speed early so you can give unobstructed passage without panic braking.",
+      "diagramAscii": "YOU↑ to zebra; P at kerb; A oncoming.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"105.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"127.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"149.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"171.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"193.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"100\" cy=\"101\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"97\" y=\"105\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"100\" y=\"123\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><polygon points=\"160,176 151,200 169,200\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"190\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"212\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"26.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"18.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-018",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Two give-way approaches meeting",
+      "situation": "Small crossroads. YOU from south with yield, going straight. Car A from east with yield, going straight. No one else present.",
+      "question": "Practical safe resolution?",
+      "options": [
+        "Race to seize the middle",
+        "Both have yield duties to the intersecting road — proceed only with clear mutual understanding; often the one with the other on their right waits (A on your right)",
+        "Motorcycles always roll first at double-yield",
+        "Reverse away and abandon the junction"
+      ],
+      "answer": 1,
+      "explanation": "When both approaches show give-way, treat it carefully: do not assume. Priority-to-the-right still guides many equal conflicts — A is on your right — but eye contact and slow approach prevent stalemate crashes.",
+      "diagramAscii": "YOU↑ yield; A← yield from E (your right).",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,191 151,215 169,215\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"205\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"227\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"160,178 151,160 169,160\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"170\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text><polygon points=\"205,130 196,112 214,112\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"205\" y=\"122\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-019",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Position for view through a right-hand bend",
+      "situation": "Open right-hand bend on a country road. Limited sight distance. Oncoming car risk.",
+      "question": "Which position helps you see earlier?",
+      "options": [
+        "Tight against the right edge the whole way — shortest radius only",
+        "A sensible leftward position in your lane (not over the centre) to open the view around the bend, then adjust",
+        "Cross fully into the oncoming lane for “better apex”",
+        "Close your eyes and trust luck"
+      ],
+      "answer": 1,
+      "explanation": "On a right bend, a carefully chosen position toward the left of your lane (while staying in lane) often improves sightlines to oncoming traffic. Never claim the oncoming lane as a racing line.",
+      "diagramAscii": "Right bend; YOU using left-of-lane sightline.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><path d=\"M40,200 Q160,200 160,120 Q160,40 280,40\" fill=\"none\" stroke=\"#3a4a62\" stroke-width=\"50\"/><path d=\"M40,200 Q160,200 160,120 Q160,40 280,40\" fill=\"none\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"114,195 90,186 90,204\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"100\" cy=\"195\" r=\"3\" fill=\"#041018\"/><text x=\"100\" y=\"217\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"36.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"66.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-020",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Exiting private access / yard onto road",
+      "situation": "YOU leave a yard/driveway onto a public road. Car A approaches from the left; cyclist Cyc from the right on the road.",
+      "question": "Duty when entering the road?",
+      "options": [
+        "Road users on the public road must always stop for exiting yards",
+        "YOU must give way to traffic on the road (including A and the cyclist) before entering",
+        "Only yield to motor vehicles, not cyclists",
+        "Enter with a wheelspin so others notice"
+      ],
+      "answer": 1,
+      "explanation": "When coming from a yard, path, or similar access you must give way to road users on the carriageway you enter — including cyclists.",
+      "diagramAscii": "YOU from driveway S; A→ ; Cyc← on public road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"100\" width=\"320\" height=\"50\" fill=\"#3a4a62\"/><rect x=\"145\" y=\"150\" width=\"30\" height=\"90\" fill=\"#3a4a62\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"46.0\" y=\"116.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"60\" y=\"146.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><circle cx=\"254\" cy=\"125\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><circle cx=\"266\" cy=\"125\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><line x1=\"254\" y1=\"125\" x2=\"266\" y2=\"125\" stroke=\"#1abc9c\" stroke-width=\"2\"/><text x=\"260\" y=\"141\" fill=\"#1abc9c\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">Cyc</text><polygon points=\"160,175 151,157 169,157\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"167\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-021",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Traffic lights — amber / stop line judgement (practice theme)",
+      "situation": "YOU approach green that turns amber. Stop line is close; car A is close behind. Crossing is clear.",
+      "question": "Best principle?",
+      "options": [
+        "Always race the amber regardless of distance",
+        "If you can stop safely at the line without risking a rear-end from A, stop; if already too close to stop safely, continue with care",
+        "Brake as hard as possible mid-junction",
+        "Turn around in the junction"
+      ],
+      "answer": 1,
+      "explanation": "Amber means stop unless you cannot do so safely. Factor following distance (A) and your speed. Never accelerate aggressively “to beat” the light as a habit.",
+      "diagramAscii": "YOU↑ near stop line; signal amber; A behind.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><rect x=\"168\" y=\"70\" width=\"14\" height=\"36\" rx=\"2\" fill=\"#222\"/><circle cx=\"175\" cy=\"78\" r=\"4\" fill=\"#555\"/><circle cx=\"175\" cy=\"88\" r=\"4\" fill=\"#f1c40f\"/><circle cx=\"175\" cy=\"98\" r=\"4\" fill=\"#555\"/><polygon points=\"160,161 151,185 169,185\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"175\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"197\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"206.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"246.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><line x1=\"135\" y1=\"155\" x2=\"185\" y2=\"155\" stroke=\"#e8eef7\" stroke-width=\"3\"/></svg>"
+    },
+    {
+      "id": "dg-022",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Bus stop conflicts — motorcycle space",
+      "situation": "Bus B indicates leaving a stop. YOU are alongside in a narrow urban lane. Pedestrian island ahead.",
+      "question": "Safer choice?",
+      "options": [
+        "Pinch between bus and kerb at speed",
+        "Hold back and give the bus room to merge if required; never squeeze a vanishing gap beside a large vehicle",
+        "Overtake on the pavement",
+        "Undertaking while watching only your phone"
+      ],
+      "answer": 1,
+      "explanation": "Large vehicles need space. Avoid filtering into collapsing gaps beside buses at stops; anticipate pedestrians and the bus pulling out.",
+      "diagramAscii": "Bus at stop pulling out; YOU behind/alongside deciding to hold back.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"100\" y=\"0\" width=\"90\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"115\" y=\"40\" width=\"40\" height=\"90\" rx=\"4\" fill=\"#f1c40f\"/><text x=\"135\" y=\"90\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">BUS</text><polygon points=\"175,166 166,190 184,190\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"175\" cy=\"180\" r=\"3\" fill=\"#041018\"/><text x=\"175\" y=\"202\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><circle cx=\"70\" cy=\"96\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"67\" y=\"100\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"70\" y=\"118\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text></svg>"
+    },
+    {
+      "id": "dg-023",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Priority road (etutie) vs side road",
+      "situation": "YOU travel on a priority road straight through. Car A waits at a give-way from the right-hand side road.",
+      "question": "Who proceeds first?",
+      "options": [
+        "Car A — side roads always win",
+        "YOU on the priority road — A must give way",
+        "Whichever vehicle is heavier",
+        "Always stop together and restart"
+      ],
+      "answer": 1,
+      "explanation": "On a priority road (etutie) you generally have priority over traffic entering from side roads marked with give-way/stop. Stay alert — side-road drivers may misjudge your motorcycle speed.",
+      "diagramAscii": "YOU↑ on priority road; A at yield from right side road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"205,130 196,112 214,112\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"205\" y=\"122\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text><text x=\"160\" y=\"20\" fill=\"#2ecc71\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">PRIORITY</text></svg>"
+    },
+    {
+      "id": "dg-024",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Group riding / staggered position (practice safety theme)",
+      "situation": "Two motorcycles. YOU lead. Rider M2 follows. Straight wide lane, dry, light traffic.",
+      "question": "Safer formation in a shared lane?",
+      "options": [
+        "Side-by-side handlebar to handlebar at speed",
+        "Staggered positions (lead left-of-lane / follower right-of-lane or vice versa) with generous following distance",
+        "Draft within one metre of YOU’s rear tyre",
+        "M2 rides in the oncoming lane “as mirror”"
+      ],
+      "answer": 1,
+      "explanation": "Staggered formation improves visibility and stopping space versus riding abreast or tightly drafted. Keep enough gap to brake independently.",
+      "diagramAscii": "YOU left-of-lane; M2 right-of-lane behind, staggered.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"110\" y=\"0\" width=\"100\" height=\"240\" fill=\"#3a4a62\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"140,66 131,90 149,90\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"140\" cy=\"80\" r=\"3\" fill=\"#041018\"/><text x=\"140\" y=\"102\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><polygon points=\"180,146 171,170 189,170\" fill=\"#9b59b6\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"180\" cy=\"160\" r=\"3\" fill=\"#041018\"/><text x=\"180\" y=\"182\" fill=\"#9b59b6\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">M2</text></svg>"
+    },
+    {
+      "id": "dg-025",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "U-turn / turning across traffic",
+      "situation": "YOU want to U-turn on a two-way street. Car A approaches from ahead. Pedestrian P near your turning arc.",
+      "question": "When is the U-turn acceptable?",
+      "options": [
+        "Anytime you feel like it if local rules allow racing turns",
+        "Only where allowed, and only when you will not endanger or hinder A, P, or others — wait for a clear gap",
+        "If you have ABS you may cut in front of A",
+        "U-turns cancel zebra rules"
+      ],
+      "answer": 1,
+      "explanation": "U-turns are allowed only where not prohibited and must not endanger or unnecessarily hinder others. Yield to A and protect pedestrians in your arc.",
+      "diagramAscii": "YOU U-turn arc; A oncoming; P nearby.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><line x1=\"0\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"134,145 110,136 110,154\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"120\" cy=\"145\" r=\"3\" fill=\"#041018\"/><text x=\"120\" y=\"167\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"246.0\" y=\"96.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"126.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><circle cx=\"120\" cy=\"66\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"117\" y=\"70\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"120\" y=\"88\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><path d=\"M130,145 A25,25 0 1,0 130,95\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
     }
   ]
 }

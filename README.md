@@ -9,13 +9,13 @@ Anki-style spaced-repetition Progressive Web App for **Finnish Category A motorc
 | Path | Purpose |
 |------|---------|
 | `index.html`, `css/`, `js/`, `sw.js`, `manifest.webmanifest` | Offline-capable PWA |
-| `data/cards.json` | 123 practice cards + source metadata |
+| `data/cards.json` | 148 practice cards (incl. ~25 situation diagrams) + source metadata |
 | `mcp/` | Local MCP server (`quiz_*` tools) |
 | `CONNECTOR.md` | Exact AddMcpServer command / args |
 
 ## Topics covered
 
-signs · right_of_way · speed · equipment · alcohol · lights · passengers · winter · highways · licence · visibility · mechanics · other_users · risk
+signs · right_of_way · speed · equipment · alcohol · lights · passengers · winter · highways · licence · visibility · mechanics · other_users · risk · diagrams (situation drawings tagged under right_of_way / visibility / other_users)
 
 Aligned with Traficom A1/A2/A theory topic areas (traffic rules, driver, road, other users, protective equipment, conspicuity, road-condition hazards, motorcycle mechanical safety, etc.).
 
@@ -48,10 +48,20 @@ Once installed, the service worker caches the shell and `data/cards.json` for of
 ## Study features
 
 - Multiple choice + true/false
+- **Situation diagrams** (`kind: "drawing"`): top-down junction / priority / lane-position schematics — study the SVG + situation text, tap **I've studied the situation**, then answer MC
 - Explanation after each answer with Traficom / Tieliikennelaki–aligned rationale and source theme
 - Ratings: **Again / Hard / Good / Easy** (SM-2 intervals)
 - Dashboard: due today, retention index, weak topics
 - Topic drills
+
+### Diagram card fields (optional on `mc` cards)
+
+| Field | Purpose |
+|-------|---------|
+| `kind: "drawing"` | Marks a liikennetilannepiirros-style card |
+| `diagramSvg` | Inline SVG (~320×240), self-contained |
+| `situation` | What you see / what happens next (shown before options) |
+| `diagramAscii` | Compact text sketch for MCP clients |
 
 ## MCP server (Licence Coach)
 

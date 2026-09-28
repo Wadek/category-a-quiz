@@ -2,16 +2,17 @@
   "meta": {
     "title": "Category A Finland Motorcycle Theory Practice",
     "locale": "en-FI",
-    "version": "1.0.0",
-    "cardCount": 123,
-    "disclaimer": "Original practice questions grounded in Traficom / Tieliikennelaki themes. Not official Teoriakoe items. Not from CAP/Webauto banks.",
+    "version": "1.1.0",
+    "cardCount": 148,
+    "disclaimer": "Original practice questions grounded in Traficom / Tieliikennelaki themes. Not official Teoriakoe items. Not from CAP/Webauto banks. Diagram cards are original schematics for practice only.",
     "sources": [
       "Traficom: Driving examination / Kuljettajantutkinto",
       "Traficom: Moottoripyörän ajokortin hankkiminen",
       "Tieliikennelaki 729/2018 (Finlex)",
       "Traficom theory-test regulation topic areas for A1/A2/A",
       "Väylävirasto winter speed practice; Liikenneturva/Poliisi right-of-way themes"
-    ]
+    ],
+    "diagramCardCount": 25
   },
   "topics": [
     "alcohol",
@@ -27,131 +28,2017 @@
     "signs",
     "speed",
     "visibility",
-    "winter"
+    "winter",
+    "diagrams"
   ],
   "cards": [
-    {"id":"eq-001","type":"mc","topic":"equipment","source":"Tieliikennelaki 729/2018 §92; Traficom test PPE","question":"When riding a motorcycle on a public road in Finland, who must wear an approved, properly fastened helmet?","answer":2,"explanation":"Finnish law requires an approved, properly fastened helmet for both rider and passenger. Traficom also requires full PPE for Category A tests.","options":["Only the rider","Only passengers under 18","Both the rider and any passenger","Neither, if under 50 km/h"]},
-    {"id":"eq-002","type":"tf","topic":"equipment","source":"Traficom: Moottoripyörän ajokortin hankkiminen","question":"For a Category A handling or driving test, trousers with knee protectors and a jacket with elbow and shoulder protectors are required.","answer":true,"explanation":"Traficom lists mandatory test PPE including protected trousers and jacket, gloves with protectors, motorcycle boots, and an approved helmet."},
-    {"id":"eq-003","type":"mc","topic":"equipment","source":"Traficom: Moottoripyörän ajokortin hankkiminen","question":"Your helmet has no visor. What else does Traficom require for the handling/driving test?","answer":1,"explanation":"If the helmet has no visor, riding goggles are additionally required.","options":["A scarf over the face","Riding goggles","Nothing else","Sunglasses only"]},
-    {"id":"eq-004","type":"tf","topic":"equipment","source":"Traficom A theory topics: visibility / protective gear","question":"Bright or reflective outer clothing improves a motorcyclist's conspicuity to other road users and is good practice.","answer":true,"explanation":"Traficom A-class topics include motorcyclist visibility. High-visibility gear reduces 'looked but failed to see' crashes."},
-    {"id":"eq-005","type":"mc","topic":"equipment","source":"Tieliikennelaki helmet duty","question":"A passenger refuses to fasten their helmet strap. What should you do?","answer":2,"explanation":"Both must use a properly fastened helmet. Do not start until it is fastened.","options":["Ride slowly","Let them hold the helmet","Do not start until the helmet is properly fastened","Only fasten it outside towns"]},
-    {"id":"eq-006","type":"mc","topic":"equipment","source":"Traficom Category A test PPE","question":"Which gear best matches Traficom's Category A test expectation?","answer":2,"explanation":"Full protected motorcycle clothing is required for handling and driving tests.","options":["Helmet and T-shirt","Helmet, jeans, trainers","Helmet, protected jacket/trousers, protected gloves, motorcycle boots","Only helmet and gloves"]},
-    {"id":"eq-007","type":"tf","topic":"equipment","source":"Traficom: Moottoripyörän ajokortin hankkiminen","question":"A one-piece motorcycle suit is acceptable for the test if it meets jacket and trousers protection requirements.","answer":true,"explanation":"Traficom allows overalls/suit if it meets the same requirements."},
-    {"id":"eq-008","type":"mc","topic":"equipment","source":"Traficom glove requirement rationale","question":"Motorcycle gloves with protectors primarily help:","answer":1,"explanation":"Hands often hit the ground first; protected gloves are required in Traficom tests.","options":["Improve radio reception","Protect hands in slides and impacts","Increase legal top speed","Replace mirrors"]},
-    {"id":"eq-009","type":"tf","topic":"equipment","source":"Traficom footwear requirement","question":"Ordinary trainers meet Traficom's motorcycle footwear requirement for the handling/driving test.","answer":false,"explanation":"Motorcycle-intended riding boots are required."},
-    {"id":"eq-010","type":"tf","topic":"equipment","source":"Traficom: protectors must be in place","question":"For Traficom tests, protectors must be present; deficiencies that affect safety can bar you from the test.","answer":true,"explanation":"Protectors must be in place and gear must not compromise safety."},
-    {"id":"al-001","type":"mc","topic":"alcohol","source":"Finnish drink-driving thresholds; Traficom driver responsibility","question":"What is the general blood alcohol concentration (BAC) limit for riding a motorcycle in Finland?","answer":1,"explanation":"General drink-driving threshold is 0.5‰ BAC (~0.22 mg/l breath). Aggravated starts at 1.2‰. Best practice: zero alcohol.","options":["0.2‰","0.5‰","0.8‰","1.0‰"]},
-    {"id":"al-002","type":"tf","topic":"alcohol","source":"Finnish drink-driving law","question":"Riding a motorcycle with 0.6‰ BAC is under the Finnish drink-driving limit.","answer":false,"explanation":"0.5‰ is the general limit; 0.6‰ already meets the offence threshold."},
-    {"id":"al-003","type":"mc","topic":"alcohol","source":"Aggravated drink-driving threshold","question":"Aggravated drunken driving (törkeä rattijuopumus) generally begins at which BAC?","answer":2,"explanation":"Aggravated drink-driving typically starts at 1.2‰ BAC.","options":["0.5‰","0.8‰","1.2‰","2.0‰"]},
-    {"id":"al-004","type":"tf","topic":"alcohol","source":"Driver responsibility themes","question":"Coffee and a cold shower reliably reduce BAC fast enough to ride safely after heavy drinking the night before.","answer":false,"explanation":"Only time lowers BAC. Residual morning alcohol is a common risk."},
-    {"id":"al-005","type":"mc","topic":"alcohol","source":"Narcotics / impairment rules","question":"Besides alcohol, which statement is correct for motorcycle riders in Finland?","answer":1,"explanation":"Driving under the influence of narcotics is punishable; some medicines also impair riding.","options":["Only illegal drugs are banned","Impairment by narcotics can also be punishable","Prescription medicines never affect fitness","Police cannot test riders for drugs"]},
-    {"id":"al-006","type":"tf","topic":"alcohol","source":"Driver responsibility","question":"Even below 0.5‰, alcohol can reduce motorcycle balance, hazard perception and reaction time.","answer":true,"explanation":"Legal limit ≠ safe limit. Any alcohol increases motorcycle risk."},
-    {"id":"al-007","type":"mc","topic":"alcohol","source":"Morning-after risk","question":"You drank heavily until 02:00 and plan to ride at 08:00. The safest decision is:","answer":2,"explanation":"Alcohol elimination takes many hours; feeling sober is unreliable.","options":["Ride if you feel fine","Assume coffee cleared it","Not ride until you are sure BAC is well under the limit—often waiting much longer","Ride only on quiet roads"]},
-    {"id":"li-001","type":"mc","topic":"lights","source":"Tieliikennelaki light-use; Finnish daytime light practice","question":"In Finland, when must a motor vehicle generally use dipped headlights or daytime running lights while driving?","answer":2,"explanation":"Dipped headlights or DRL are required whenever driving, day and night, including in built-up areas.","options":["Only at night","Only outside built-up areas","At all times when driving","Only in fog"]},
-    {"id":"li-002","type":"tf","topic":"lights","source":"Tieliikennelaki / Traficom light clarification","question":"In darkness, dusk, or poor visibility, daytime running lights alone are enough; dipped headlights and rear lights are not needed.","answer":false,"explanation":"In darkness, dusk or poor visibility, dipped headlights and rear lights are required; DRL alone is not enough."},
-    {"id":"li-003","type":"mc","topic":"lights","source":"Main-beam / dazzle rules","question":"When must you switch from main beam to dipped beam?","answer":1,"explanation":"Do not dazzle others; dip on well-lit roads and when close to other traffic.","options":["Never on rural roads","When you would dazzle others, and on well-lit roads","Only inside cities","Only when police are present"]},
-    {"id":"li-004","type":"tf","topic":"lights","source":"Hazard light use themes","question":"Hazard warning lights may be used while moving if needed to warn others of an immediate danger.","answer":true,"explanation":"Finnish rules allow hazard lights on a moving vehicle to warn of immediate danger."},
-    {"id":"li-005","type":"mc","topic":"lights","source":"Fog-light use","question":"Front fog lights should generally be used:","answer":1,"explanation":"Fog lights are for fog, mist or heavy precipitation—not decorative daytime use.","options":["Always in daytime for style","Only in fog, mist, or heavy rain/snow when they help without dazzling","Whenever over 80 km/h","Instead of indicators"]},
-    {"id":"li-006","type":"tf","topic":"lights","source":"Motorcycle conspicuity","question":"Using lights in daylight helps other drivers judge whether a motorcycle is moving and its direction.","answer":true,"explanation":"Compulsory daytime lights improve motorcycle detection."},
-    {"id":"li-007","type":"mc","topic":"lights","source":"Parking lights in darkness","question":"A motorcycle parked on the road in darkness generally needs:","answer":1,"explanation":"Vehicles parked on the road in darkness must be lit so others can see them.","options":["No lights if within a city","Position/parking lights as required for visibility","Main beam left on","Only a reflective vest on the seat"]},
-    {"id":"li-008","type":"mc","topic":"lights","source":"Indicator use","question":"Direction indicators should be:","answer":1,"explanation":"Signal early and clearly, then cancel so you do not mislead others.","options":["Optional on motorcycles","Used in good time before turning/changing direction, then cancelled","Left on permanently","Replaced by hand signals only at night"]},
-    {"id":"li-009","type":"tf","topic":"lights","source":"Brake light function","question":"Both front and rear brake application should normally illuminate the brake light on a properly functioning motorcycle.","answer":true,"explanation":"Brake-light switches on both controls warn following traffic."},
-    {"id":"sp-001","type":"mc","topic":"speed","source":"Finnish general urban limit practice","question":"Unless otherwise signed, the typical speed limit inside a Finnish built-up area (taajama) is:","answer":1,"explanation":"Default urban/built-up limit is generally 50 km/h unless signs show otherwise.","options":["30 km/h","50 km/h","60 km/h","80 km/h"]},
-    {"id":"sp-002","type":"mc","topic":"speed","source":"Väylävirasto winter motorway practice","question":"On many Finnish motorways, winter seasonal limits commonly reduce the maximum from 120 km/h to:","answer":2,"explanation":"Winter limits typically lower motorways to 100 km/h. Always follow posted signs.","options":["60 km/h","80 km/h","100 km/h","110 km/h"]},
-    {"id":"sp-003","type":"tf","topic":"speed","source":"Tieliikennelaki speed adaptation","question":"Even below the posted limit, you must adjust motorcycle speed to conditions (wet road, gravel, visibility, traffic).","answer":true,"explanation":"Posted limits are maxima; choose a safe speed for conditions."},
-    {"id":"sp-004","type":"mc","topic":"speed","source":"Speed limit sign meaning","question":"A round sign with a red border and the number 80 means:","answer":1,"explanation":"Circular red-border speed signs set the maximum permitted speed.","options":["Recommended minimum 80","Maximum speed 80 km/h","End of all restrictions","Lane for vehicles over 80 only"]},
-    {"id":"sp-005","type":"tf","topic":"speed","source":"End of speed limit","question":"A speed-limit sign crossed out means you may immediately ride as fast as the bike can go.","answer":false,"explanation":"Ending one limit returns you to the next applicable limit—not unlimited speed."},
-    {"id":"sp-006","type":"mc","topic":"speed","source":"Following distance","question":"Compared with a car in the same conditions, a motorcycle's safe following distance should generally be:","answer":1,"explanation":"Keep a generous gap; surface and technique uncertainty matter more on two wheels.","options":["Much shorter always","At least as long, and often longer when grip is uncertain","Irrelevant for bikes","Half a car length"]},
-    {"id":"sp-007","type":"tf","topic":"speed","source":"Trailer speed themes","question":"If a motorcycle tows a trailer, lower trailer-related speed limits may apply depending on trailer equipment.","answer":true,"explanation":"Towing is allowed only when safe; trailer configs can impose lower maxima."},
-    {"id":"sp-008","type":"mc","topic":"speed","source":"Variable speed signs","question":"On a road with variable electronic signs showing 80 while a previous gantry showed 100, you must:","answer":1,"explanation":"The currently displayed variable limit is the enforceable maximum.","options":["Keep 100 if traffic is light","Obey the currently displayed 80","Use the average","Ignore electronic signs on a motorcycle"]},
-    {"id":"sp-009","type":"mc","topic":"speed","source":"Speed near vulnerable users","question":"Passing parked cars on a narrow street, a prudent motorcycle speed is:","answer":1,"explanation":"Speed must match visibility and surprise-hazard potential.","options":["Always the signed maximum","Low enough to stop for a door or pedestrian stepping out","At least 70 km/h","Whatever keeps revs high"]},
-    {"id":"sp-010","type":"tf","topic":"speed","source":"Advisory vs mandatory","question":"A rectangular advisory speed plate recommends a speed for a hazard but the circular limit remains the legal maximum where posted.","answer":true,"explanation":"Distinguish mandatory circular limits from advisory plates."},
-    {"id":"sp-011","type":"mc","topic":"speed","source":"End of built-up area","question":"When you pass the end-of-built-up-area sign and no other speed sign is present, you should:","answer":1,"explanation":"Leaving taajama ends the urban default; apply general/signed rural limits and watch for signs.","options":["Assume 120 km/h immediately","Apply the general limit for that road type and conditions, watching for the next signed limit","Stop and wait","Ride at walking pace"]},
-    {"id":"rw-001","type":"mc","topic":"right_of_way","source":"Tieliikennelaki junction rules; Liikenneturva","question":"At an uncontrolled intersection where roads are of equal importance, who typically gives way?","answer":1,"explanation":"Default: give way to traffic from the right unless signs change priority.","options":["Traffic from the left","Traffic from the right has priority; you give way to the right","The faster vehicle","Motorcycles always go first"]},
-    {"id":"rw-002","type":"tf","topic":"right_of_way","source":"Turning yield to pedestrians/cyclists","question":"When turning at a junction, you must give way to pedestrians and cyclists crossing the road you are entering.","answer":true,"explanation":"Turning drivers yield to pedestrians and cyclists/moped riders crossing the carriageway entered."},
-    {"id":"rw-003","type":"mc","topic":"right_of_way","source":"Poliisi/Liikenneturva zebra guidance","question":"At a zebra crossing (suojatie), which statement is correct?","answer":0,"explanation":"Give pedestrians free passage. A cyclist riding across is not automatically a pedestrian.","options":["You must give unobstructed passage to pedestrians on the crossing","Cyclists riding across always have the same automatic priority as pedestrians","Motorcycles may ride over without slowing","Only cars must stop"]},
-    {"id":"rw-004","type":"mc","topic":"right_of_way","source":"Give-way vs STOP","question":"An inverted triangle give-way (yield) sign requires you to:","answer":1,"explanation":"Yield to intersecting traffic; stop only if necessary. STOP requires a full stop.","options":["Stop completely every time","Give way to traffic on the intersecting road, stopping if necessary","Accelerate through","Sound the horn and proceed"]},
-    {"id":"rw-005","type":"tf","topic":"right_of_way","source":"STOP sign","question":"A STOP sign always requires a complete stop, even if the road looks empty.","answer":true,"explanation":"STOP means halt, then proceed when safe after yielding."},
-    {"id":"rw-006","type":"mc","topic":"right_of_way","source":"Roundabout rules Finland","question":"When entering a roundabout in Finland, you normally:","answer":1,"explanation":"Entering traffic yields to vehicles already circulating unless signs say otherwise.","options":["Have priority over circulating traffic","Give way to traffic already in the roundabout","Stop in the middle","Use the opposite direction"]},
-    {"id":"rw-007","type":"tf","topic":"right_of_way","source":"Emergency vehicles","question":"You must give way to emergency vehicles using blue lights and sound signals.","answer":true,"explanation":"Clear a path safely without endangering others."},
-    {"id":"rw-008","type":"mc","topic":"right_of_way","source":"Lane change duty","question":"When changing lanes on a multi-lane road, the rider must:","answer":1,"explanation":"Mirror/blind-spot checks; do not endanger or unduly hinder others.","options":["Expect others to brake","Ensure the manoeuvre is safe and does not force others to brake or swerve","Signal only after moving","Never check mirrors"]},
-    {"id":"rw-009","type":"mc","topic":"right_of_way","source":"Exiting private access","question":"When leaving a yard or private access onto a public road, you must:","answer":1,"explanation":"Traffic entering from private areas yields to public-road users.","options":["Expect public-road traffic to stop","Give way to traffic on the public road","Flash lights and go","Use the pavement at speed"]},
-    {"id":"rw-010","type":"tf","topic":"right_of_way","source":"Tram awareness","question":"Where trams operate, special priority and track-crossing caution rules can apply; do not stop on tracks.","answer":true,"explanation":"Trams stop slowly; keep tracks clear and obey tram-related rules."},
-    {"id":"rw-011","type":"tf","topic":"right_of_way","source":"Police directing traffic","question":"Directions from a police officer directing traffic override normal signs and signals while they are controlling the junction.","answer":true,"explanation":"Follow the officer's instructions in that situation."},
-    {"id":"sg-001","type":"mc","topic":"signs","source":"Finnish traffic sign system","question":"A triangular sign with a red border generally means:","answer":1,"explanation":"Triangular red-border signs are warning signs.","options":["Information only","A warning of a hazard ahead","A parking bay","End of motorway"]},
-    {"id":"sg-002","type":"mc","topic":"signs","source":"Prohibitory signs","question":"A circular sign with a red border typically:","answer":1,"explanation":"Circular red-border signs are mainly prohibitory/restrictive.","options":["Gives tourist information","Prohibits or restricts something (e.g. no entry, speed limit)","Marks a hospital","Shows scenic routes"]},
-    {"id":"sg-003","type":"tf","topic":"signs","source":"No overtaking","question":"A no-overtaking sign forbids overtaking other motor vehicles in that section (subject to the sign's exact scope).","answer":true,"explanation":"The no-overtaking prohibitory sign bans overtaking as indicated."},
-    {"id":"sg-004","type":"mc","topic":"signs","source":"Mandatory blue circular","question":"A blue circular sign with a white arrow generally indicates:","answer":1,"explanation":"Blue circular signs are mandatory instructions.","options":["A warning","A mandatory direction or compulsory path","A temporary diversion only for lorries","End of all rules"]},
-    {"id":"sg-005","type":"tf","topic":"signs","source":"Built-up area","question":"Entering a built-up area (taajama) sign usually means urban speed rules apply until the end-of-area sign.","answer":true,"explanation":"The taajama sign marks where urban default limits apply."},
-    {"id":"sg-006","type":"mc","topic":"signs","source":"Priority road","question":"A yellow diamond (priority road) sign means:","answer":1,"explanation":"You have priority at upcoming junctions until cancelled.","options":["You must always stop","You have priority at upcoming junctions until cancelled","Pedestrians have priority everywhere","The road is closed"]},
-    {"id":"sg-007","type":"mc","topic":"signs","source":"Loose gravel / slippery warning","question":"A warning sign for loose gravel or slippery road is especially important for motorcyclists because:","answer":1,"explanation":"Two-wheelers have less stability margin on low-grip surfaces. Traficom A topics include road-condition hazards.","options":["It only applies to lorries","Two-wheelers have less stability margin on low-grip surfaces","Motorcycles ignore warning signs","It means use the oncoming lane"]},
-    {"id":"sg-008","type":"tf","topic":"signs","source":"Bus lanes","question":"Motorcycles may freely use bus lanes in Finland whenever traffic is heavy.","answer":false,"explanation":"Bus lanes are restricted as signed; motorcycles are generally not allowed unless expressly permitted."},
-    {"id":"sg-009","type":"mc","topic":"signs","source":"No entry","question":"A round red sign with a horizontal white bar means:","answer":1,"explanation":"This is the standard no-entry sign.","options":["Parking allowed","No entry for vehicular traffic","Hospital ahead","End of speed limit"]},
-    {"id":"sg-010","type":"tf","topic":"signs","source":"Roadworks","question":"Yellow temporary roadworks signs can change layout and priority; reduce speed and follow temporary directions.","answer":true,"explanation":"Work zones are hazardous for motorcycles (gravel, uneven edges)."},
-    {"id":"sg-011","type":"mc","topic":"signs","source":"Level crossing","question":"A warning sign for a railway level crossing means you should:","answer":1,"explanation":"Approach prepared to stop; never enter if a train approaches or barriers are closing. Tracks are slippery.","options":["Race across","Approach prepared to stop; never enter if a train is approaching or barriers are closing","Ignore lights on a motorcycle","Use main beam for fun"]},
-    {"id":"pa-001","type":"mc","topic":"passengers","source":"Tieliikennelaki §144 passenger carriage","question":"To carry a passenger on a motorcycle, Finnish rules require among other things:","answer":0,"explanation":"A suitable seat and footrests are required; helmet rules still apply to both.","options":["A suitable seat and footrests for the passenger","Only a helmet for the rider","That the passenger holds luggage instead of footrests","No special equipment"]},
-    {"id":"pa-002","type":"tf","topic":"passengers","source":"Tieliikennelaki §6 themes","question":"The rider must not load or carry a passenger in a way that endangers the passenger or impairs safe control.","answer":true,"explanation":"Unsafe loading/handling that harms passengers is prohibited."},
-    {"id":"pa-003","type":"mc","topic":"passengers","source":"Child passenger safety","question":"When carrying a child passenger on a motorcycle, the safest legal approach emphasises:","answer":1,"explanation":"Seat/footrests must fit; helmet mandatory; child must sit securely.","options":["Speed so the trip is short","Proper seat/footrests, approved helmet, and secure seating appropriate to the child","Letting the child stand on pegs","No helmet if under 10"]},
-    {"id":"pa-004","type":"tf","topic":"passengers","source":"Passenger behaviour","question":"A passenger should avoid sudden movements that could upset the motorcycle's balance, especially at low speed.","answer":true,"explanation":"Passenger movement affects centre of gravity; brief them before riding."},
-    {"id":"pa-005","type":"mc","topic":"passengers","source":"Luggage security","question":"Luggage on a motorcycle should be:","answer":1,"explanation":"Unsecured loads can foul the wheel or change handling dangerously.","options":["Stacked loosely","Securely fastened so it cannot snag the wheel or shift balance dangerously","Held by the passenger in one hand","Tied to the helmet strap"]},
-    {"id":"pa-006","type":"tf","topic":"passengers","source":"Helmet for passengers","question":"A short trip in a car park means a motorcycle passenger may skip the helmet.","answer":false,"explanation":"Helmet duty applies while riding; no short-trip exemption for normal use."},
-    {"id":"pa-007","type":"mc","topic":"passengers","source":"Briefing passengers","question":"Before carrying a new passenger you should brief them to:","answer":1,"explanation":"Hold on, feet on pegs, lean with the rider.","options":["Lean opposite in corners","Hold on securely, keep feet on pegs, and lean with the rider","Signal for the rider","Operate the front brake"]},
-    {"id":"wi-001","type":"mc","topic":"winter","source":"Traficom road-condition hazards; Väylävirasto","question":"Which hazard is especially critical for motorcycles in Finnish winter or near-freezing conditions?","answer":0,"explanation":"Black ice and packed snow destroy traction; Traficom A topics include road-condition dangers.","options":["Black ice and polished packed snow","Slightly cooler engine oil only","Longer daylight only","Lower fuel prices"]},
-    {"id":"wi-002","type":"tf","topic":"winter","source":"Seasonal speed limits","question":"Winter speed limits on many main roads and motorways are often lower than summer limits and are shown by signs.","answer":true,"explanation":"Finland commonly lowers limits in winter; obey posted/variable signs."},
-    {"id":"wi-003","type":"mc","topic":"winter","source":"Ice microclimates","question":"In near-zero temperatures after rain, bridges and shaded bends may be icy first because:","answer":1,"explanation":"They cool faster / get less sun, so ice forms earlier.","options":["They always have grit first","They cool faster / get less sun, so ice forms earlier","Motorcycles heat the road","Salt never works there"]},
-    {"id":"wi-004","type":"tf","topic":"winter","source":"Tyre readiness","question":"Worn tyres and cold rubber compound reduce grip and increase stopping distance in autumn/winter conditions.","answer":true,"explanation":"Mechanical condition affecting safety is an explicit A-class theory topic."},
-    {"id":"wi-005","type":"mc","topic":"winter","source":"Low-grip technique","question":"On a potentially slippery surface you should generally:","answer":1,"explanation":"Smooth inputs and lower speed preserve traction. Painted lines are extra slippery when wet.","options":["Increase lean and speed","Smooth inputs, reduce speed, avoid abrupt braking/acceleration","Use only the rear brake hard","Ride on painted markings for grip"]},
-    {"id":"wi-006","type":"tf","topic":"winter","source":"Dark season conspicuity","question":"Finland's dark season makes functioning lights and reflective elements even more important for motorcycle conspicuity.","answer":true,"explanation":"Long nights increase need for lights and high-visibility gear."},
-    {"id":"wi-007","type":"mc","topic":"winter","source":"Winter tyres","question":"If you choose to ride in winter, tyre choice should prioritise:","answer":1,"explanation":"Use tyres appropriate to temperature and surface.","options":["Maximum summer race grip","Suitable cold-weather / winter-capable motorcycle tyres for the conditions","Slick tyres","Any car tyre"]},
-    {"id":"wi-008","type":"tf","topic":"winter","source":"Salt and sand","question":"Road salt and sand can improve car grip but still create slippery patches and hide potholes for motorcyclists.","answer":true,"explanation":"Winter maintenance creates motorcycle-specific surface inconsistencies."},
-    {"id":"hw-001","type":"mc","topic":"highways","source":"Tieliikennelaki motorway rules","question":"On a Finnish motorway (moottoritie), which manoeuvre is prohibited?","answer":1,"explanation":"U-turns and reversing are prohibited on motorways and motor traffic roads.","options":["Overtaking when safe and legal","U-turns and reversing","Using dipped headlights","Leaving at an exit"]},
-    {"id":"hw-002","type":"tf","topic":"highways","source":"Motorway access","question":"Pedestrians, cyclists and slow vehicles that do not meet motorway access rules must not use the motorway.","answer":true,"explanation":"Motorways are limited-access roads for suitable motor traffic."},
-    {"id":"hw-003","type":"mc","topic":"highways","source":"Filtering","question":"Filtering between lanes of stopped or slow traffic on Finnish roads is generally:","answer":1,"explanation":"Lane filtering/splitting is not a generally permitted practice in Finland.","options":["Explicitly encouraged","Not allowed as a general practice","Mandatory for motorcycles","Only allowed above 100 km/h"]},
-    {"id":"hw-004","type":"tf","topic":"highways","source":"Hard shoulder","question":"The hard shoulder is for emergencies and authorised stopping, not for routine overtaking.","answer":true,"explanation":"Using the shoulder to pass is dangerous and unlawful except when directed."},
-    {"id":"hw-005","type":"mc","topic":"highways","source":"Joining motorway","question":"When joining a motorway from an acceleration lane, you should:","answer":1,"explanation":"Match traffic speed when safe and merge without forcing sharp braking.","options":["Stop at the end at zero speed","Match traffic speed when safe and merge without forcing others to brake sharply","Enter at 30 km/h always","Use the opposite carriageway"]},
-    {"id":"hw-006","type":"tf","topic":"highways","source":"Unreasonably slow riding","question":"Riding much slower than the prevailing safe flow on a high-speed road without reason increases rear-end risk.","answer":true,"explanation":"If you cannot maintain a safe pace, leave at the next exit."},
-    {"id":"hw-007","type":"mc","topic":"highways","source":"Moottoriliikennetie","question":"On a motor traffic road (moottoriliikennetie), U-turns and reversing are:","answer":1,"explanation":"Also prohibited, as on motorways.","options":["Allowed anytime","Also prohibited, as on motorways","Allowed only for motorcycles","Required when lost"]},
-    {"id":"hw-008","type":"mc","topic":"highways","source":"Breakdown on motorway","question":"If you break down on a motorway, priority actions include:","answer":1,"explanation":"Get clear of live lanes if possible, use hazards, call for help.","options":["Stand in the live lane to wave","Getting yourself and the bike as safely as possible out of live lanes, using hazards, and calling for help","Walk across all lanes casually","Continue at 5 km/h in the fast lane"]},
-    {"id":"lc-001","type":"mc","topic":"licence","source":"Traficom: Moottoripyörän ajokortin hankkiminen","question":"Category A (unrestricted motorcycle) minimum age is generally:","answer":2,"explanation":"Age 24, or 20 if you have held A2 for at least 2 years.","options":["16","18","24, or 20 if you have held A2 for at least 2 years","30"]},
-    {"id":"lc-002","type":"mc","topic":"licence","source":"Traficom A1 definition","question":"A1 entitles you to ride light motorcycles up to approximately:","answer":0,"explanation":"A1: max 125 cm³, max 11 kW, power/weight ≤ 0.1 kW/kg (age 16).","options":["125 cm³ and 11 kW (with power/weight limits)","35 kW only","Any power if under 24","50 cm³ only"]},
-    {"id":"lc-003","type":"tf","topic":"licence","source":"Traficom theory test structure","question":"For A1/A2/A, the theory test includes multiple-choice, traffic-image, and risk-identification sections, each with its own pass mark.","answer":true,"explanation":"A classes: 20 (14), 50 (43), 5 (4). Each section must be passed."},
-    {"id":"lc-004","type":"mc","topic":"licence","source":"Traficom theory validity","question":"A passed theory test is generally valid for:","answer":2,"explanation":"Traficom: a passed theory test is valid for one year.","options":["1 month","6 months","1 year","5 years"]},
-    {"id":"lc-005","type":"tf","topic":"licence","source":"Traficom motorcycle process","question":"Category A candidates take a handling test as well as a theory test and a driving test.","answer":true,"explanation":"A1/A2/A include a handling test."},
-    {"id":"lc-006","type":"mc","topic":"licence","source":"Traficom A2 definition","question":"A2 generally limits motorcycle power to a maximum of:","answer":2,"explanation":"A2: max 35 kW and max 0.2 kW/kg; not converted from a bike over 70 kW.","options":["11 kW","25 kW","35 kW (with power/weight and conversion rules)","70 kW"]},
-    {"id":"lc-007","type":"tf","topic":"licence","source":"Traficom harjoituslupa","question":"A motorcycle practice permit can allow practice only after required theory and handling tests (and other conditions) are met.","answer":true,"explanation":"Traficom lists passed theory and handling among practice-permit conditions."},
-    {"id":"lc-008","type":"mc","topic":"licence","source":"Traficom misconduct (2026 themes)","question":"Cheating or recording theory-test content can lead to:","answer":1,"explanation":"Misconduct leads to a six-month theory-test ban.","options":["A verbal warning only","A ban from taking the theory test (e.g. six months)","Automatic Category A licence","No consequences"]},
-    {"id":"lc-009","type":"mc","topic":"licence","source":"Traficom code 78","question":"If you take the Category A driving test on a motorcycle without a clutch lever, your licence may be restricted with:","answer":1,"explanation":"Testing without a clutch lever leads to restriction code 78 (automatic).","options":["Code 70 only","Code 78 (automatic transmission)","Code 01 eyesight","No codes ever apply"]},
-    {"id":"lc-010","type":"tf","topic":"licence","source":"Traficom theory documents","question":"You need a valid driving licence permit and photo ID to take the theory test; Ajovarma checks permit validity in Traficom systems.","answer":true,"explanation":"ID and valid ajokorttilupa are required."},
-    {"id":"lc-011","type":"mc","topic":"licence","source":"Traficom EAS","question":"If Category A will be your first driving licence, you generally need EAS (first driving licence trainee training) of:","answer":1,"explanation":"First-licence candidates complete 4-hour EAS theory training.","options":["No theory at all","4 theory hours of EAS","40 hours only of motorway driving","A university degree"]},
-    {"id":"vi-001","type":"mc","topic":"visibility","source":"Traficom A topic: conspicuity","question":"A common crash factor involving cars and motorcycles is drivers who:","answer":1,"explanation":"Conspicuity is a Traficom A theory topic. Positioning, lights and clothing help.","options":["Always see bikes clearly","Look but fail to perceive the motorcycle","Prefer motorcycles","Never turn at junctions"]},
-    {"id":"vi-002","type":"tf","topic":"visibility","source":"Lane position","question":"Choosing a lane position that keeps you out of blind spots and visible in mirrors is part of defensive motorcycle riding.","answer":true,"explanation":"Positioning for visibility reduces SMIDSY conflicts."},
-    {"id":"vi-003","type":"mc","topic":"visibility","source":"Night riding","question":"At night on an unlit road, using main beam when no traffic would be dazzled helps you:","answer":1,"explanation":"Main beam increases seeing distance when it will not dazzle others.","options":["Hide from animals","See further and detect hazards earlier","Save battery always","Ride without a helmet"]},
-    {"id":"vi-004","type":"tf","topic":"visibility","source":"Tinted visor","question":"A heavily tinted visor can be unsafe at dusk or in tunnels because it reduces your ability to see hazards.","answer":true,"explanation":"Clear visors are safer when light is low."},
-    {"id":"vi-005","type":"mc","topic":"visibility","source":"Overtaking checks","question":"Before overtaking on a motorcycle you should:","answer":1,"explanation":"Observe–signal–manoeuvre prevents side-swipe and rear conflicts.","options":["Only look forward","Check mirrors and blind spot, signal, then manoeuvre when safe","Wave and move immediately","Rely on other drivers' horns"]},
-    {"id":"vi-006","type":"tf","topic":"visibility","source":"Eye contact myth","question":"Making eye contact with a car driver guarantees they will not turn across your path.","answer":false,"explanation":"Eye contact is not a guarantee; always have an escape plan."},
-    {"id":"me-001","type":"mc","topic":"mechanics","source":"Traficom A topic: mechanical safety factors","question":"Before a ride, which pre-check set is most aligned with motorcycle safety theory topics?","answer":1,"explanation":"Mechanical condition is an explicit A theory area.","options":["Only fuel level","Tyres, brakes, lights, chain/drive, controls, mirrors","Only the phone mount","Only paint condition"]},
-    {"id":"me-002","type":"tf","topic":"mechanics","source":"Tyre pressure","question":"Incorrect tyre pressure can seriously alter motorcycle handling and braking.","answer":true,"explanation":"Under- or over-inflation changes contact patch and stability."},
-    {"id":"me-003","type":"mc","topic":"mechanics","source":"Brake faults","question":"If the front brake lever feels spongy and pulls to the bar, you should:","answer":1,"explanation":"Do not ride with unreliable brakes.","options":["Ride faster to warm fluid","Not ride until brakes are inspected/repaired","Use only engine braking on motorways","Ignore it below 50 km/h"]},
-    {"id":"me-004","type":"tf","topic":"mechanics","source":"Chain/final drive","question":"A badly adjusted or dry chain can break or lock the rear wheel.","answer":true,"explanation":"Final-drive neglect is a known motorcycle mechanical hazard."},
-    {"id":"me-005","type":"mc","topic":"mechanics","source":"ABS","question":"ABS on a motorcycle is primarily designed to:","answer":1,"explanation":"ABS helps prevent wheel lock under braking on many surfaces.","options":["Increase top speed","Help prevent wheel lock under braking on many surfaces","Replace the need for a helmet","Disable rear brake use"]},
-    {"id":"me-006","type":"tf","topic":"mechanics","source":"Lights check","question":"Checking that brake light and indicators work is part of a responsible pre-ride inspection.","answer":true,"explanation":"Signalling and brake-light function affect how others predict your actions."},
-    {"id":"me-007","type":"mc","topic":"mechanics","source":"Load and suspension","question":"Carrying a passenger or heavy luggage may require:","answer":1,"explanation":"Load changes geometry and grip; check pressures and preload per the manual.","options":["No change ever","Checking tyre pressures and suspension preload settings per the manual","Removing the rear brake","Disabling ABS"]},
-    {"id":"me-008","type":"mc","topic":"mechanics","source":"Fluid leaks","question":"Seeing oil or brake fluid under the motorcycle before a ride means:","answer":1,"explanation":"Leaks can cause brake/engine failure and a slippery patch—investigate before riding.","options":["It is always condensation","Investigate and fix before riding","Wipe it and ignore","Only cars care about leaks"]},
-    {"id":"ou-001","type":"mc","topic":"other_users","source":"Traficom: other road users","question":"Near schools and playgrounds you should expect:","answer":1,"explanation":"Anticipating vulnerable road users is core driver responsibility content.","options":["No children if signs are absent","Unpredictable child movement and be ready to slow/stop","That children always use crossings correctly","That motorcycles have automatic priority"]},
-    {"id":"ou-002","type":"tf","topic":"other_users","source":"Heavy vehicle blind spots","question":"Lingering alongside a lorry's cab or trailer on a motorcycle is risky because of large blind spots.","answer":true,"explanation":"Pass promptly when safe or hang back."},
-    {"id":"ou-003","type":"mc","topic":"other_users","source":"Cyclist interaction","question":"When turning right across a cycle track continuation, you must:","answer":1,"explanation":"Turning traffic yields to cyclists crossing the road being entered.","options":["Assume cyclists will stop","Yield to cyclists crossing as required by turning/yield rules","Honk continuously","Block the cycle track"]},
-    {"id":"ou-004","type":"tf","topic":"other_users","source":"Wildlife Finland","question":"In rural Finland, especially at dawn/dusk, elk/deer collisions are a real motorcycle hazard; reduce speed in warning-signed areas.","answer":true,"explanation":"Animal-warning signs mark elevated risk."},
-    {"id":"ou-005","type":"mc","topic":"other_users","source":"Residential streets","question":"In a residential street with parked cars, a key motorcycle risk is:","answer":1,"explanation":"Cover brakes, lower speed, position for an escape path.","options":["Too much grip","Pedestrians or doors appearing suddenly from between cars","Excess horsepower limits","Mandatory 120 km/h"]},
-    {"id":"ou-006","type":"tf","topic":"other_users","source":"Bus stops","question":"When passing a bus at a stop, expect pedestrians to cross in front of or behind the bus.","answer":true,"explanation":"Buses hide pedestrians; pass with extra clearance."},
-    {"id":"ou-007","type":"mc","topic":"other_users","source":"Distracted drivers","question":"If an oncoming car drifts toward your lane, a high-probability cause is:","answer":1,"explanation":"Anticipate distraction; move away laterally if space allows.","options":["Perfect lane discipline","Driver distraction or impairment","Your motorcycle being too quiet only at night","Correct roundabout use"]},
-    {"id":"rk-001","type":"mc","topic":"risk","source":"Traficom risk-identification themes","question":"You approach a junction where a car from the opposite direction is signalling left (your right). The biggest motorcycle-specific risk is often:","answer":1,"explanation":"Opposite-direction turns across motorcycle paths are a classic severe crash pattern.","options":["That the car will always wait","The car turns across your path","That your engine will stall only","That signs disappear"]},
-    {"id":"rk-002","type":"tf","topic":"risk","source":"Surface hazards","question":"Metal tram/train tracks, diesel spills and wet manhole covers can cause sudden motorcycle slides.","answer":true,"explanation":"Road-surface hazards are emphasised in A-class theory topics."},
-    {"id":"rk-003","type":"mc","topic":"risk","source":"Group riding","question":"In a group of motorcycles, a safer pattern is usually:","answer":1,"explanation":"Staggered formation preserves stopping space and visibility.","options":["Side-by-side tightly at high speed","Staggered formation with space to brake","Drafting centimetres behind the leader","Ignoring indicators"]},
-    {"id":"rk-004","type":"tf","topic":"risk","source":"Fatigue","question":"Fatigue degrades hazard perception similarly to mild impairment and is dangerous on a motorcycle.","answer":true,"explanation":"Driver condition (kuljettaja) is a core theory area."},
-    {"id":"rk-005","type":"mc","topic":"risk","source":"Overtaking assessment","question":"Before overtaking on a two-way road, you must be sure of:","answer":1,"explanation":"Need sight distance, oncoming traffic, markings/signs, and a safe return gap.","options":["Only your bike's power","Sight distance, oncoming traffic, road markings/signs, and a safe return gap","That the other driver waves","That it is after sunset"]},
-    {"id":"rk-006","type":"tf","topic":"risk","source":"Target fixation","question":"Staring at a hazard (target fixation) can steer a motorcycle toward it; look to the escape path instead.","answer":true,"explanation":"Riders go where they look."},
-    {"id":"rk-007","type":"mc","topic":"risk","source":"Emergency stop","question":"In an emergency stop on good grip with ABS, a typical good practice is:","answer":1,"explanation":"Progressive firm use of both brakes, bike as upright as possible.","options":["Grab only the rear brake","Progressive firm use of both brakes while keeping the bike upright as possible","Lay the bike down deliberately","Release the bars"]},
-    {"id":"rk-008","type":"mc","topic":"risk","source":"Blind bends","question":"Entering a blind bend too fast is dangerous mainly because:","answer":1,"explanation":"You may not stop or tighten line for an unseen hazard. Ride to the visible clear distance.","options":["Your licence number changes","You may not be able to stop or tighten line for an unseen hazard","Bends increase fuel use only","Signs become invalid"]},
-    {"id":"rk-009","type":"tf","topic":"risk","source":"Peer pressure","question":"Keeping up with a faster group beyond your skill or the speed limit is a common preventable motorcycle risk.","answer":true,"explanation":"Ride your own ride; group pressure is a recognised risk factor."}
+    {
+      "id": "eq-001",
+      "type": "mc",
+      "topic": "equipment",
+      "source": "Tieliikennelaki 729/2018 §92; Traficom test PPE",
+      "question": "When riding a motorcycle on a public road in Finland, who must wear an approved, properly fastened helmet?",
+      "answer": 2,
+      "explanation": "Finnish law requires an approved, properly fastened helmet for both rider and passenger. Traficom also requires full PPE for Category A tests.",
+      "options": [
+        "Only the rider",
+        "Only passengers under 18",
+        "Both the rider and any passenger",
+        "Neither, if under 50 km/h"
+      ]
+    },
+    {
+      "id": "eq-002",
+      "type": "tf",
+      "topic": "equipment",
+      "source": "Traficom: Moottoripyörän ajokortin hankkiminen",
+      "question": "For a Category A handling or driving test, trousers with knee protectors and a jacket with elbow and shoulder protectors are required.",
+      "answer": true,
+      "explanation": "Traficom lists mandatory test PPE including protected trousers and jacket, gloves with protectors, motorcycle boots, and an approved helmet."
+    },
+    {
+      "id": "eq-003",
+      "type": "mc",
+      "topic": "equipment",
+      "source": "Traficom: Moottoripyörän ajokortin hankkiminen",
+      "question": "Your helmet has no visor. What else does Traficom require for the handling/driving test?",
+      "answer": 1,
+      "explanation": "If the helmet has no visor, riding goggles are additionally required.",
+      "options": [
+        "A scarf over the face",
+        "Riding goggles",
+        "Nothing else",
+        "Sunglasses only"
+      ]
+    },
+    {
+      "id": "eq-004",
+      "type": "tf",
+      "topic": "equipment",
+      "source": "Traficom A theory topics: visibility / protective gear",
+      "question": "Bright or reflective outer clothing improves a motorcyclist's conspicuity to other road users and is good practice.",
+      "answer": true,
+      "explanation": "Traficom A-class topics include motorcyclist visibility. High-visibility gear reduces 'looked but failed to see' crashes."
+    },
+    {
+      "id": "eq-005",
+      "type": "mc",
+      "topic": "equipment",
+      "source": "Tieliikennelaki helmet duty",
+      "question": "A passenger refuses to fasten their helmet strap. What should you do?",
+      "answer": 2,
+      "explanation": "Both must use a properly fastened helmet. Do not start until it is fastened.",
+      "options": [
+        "Ride slowly",
+        "Let them hold the helmet",
+        "Do not start until the helmet is properly fastened",
+        "Only fasten it outside towns"
+      ]
+    },
+    {
+      "id": "eq-006",
+      "type": "mc",
+      "topic": "equipment",
+      "source": "Traficom Category A test PPE",
+      "question": "Which gear best matches Traficom's Category A test expectation?",
+      "answer": 2,
+      "explanation": "Full protected motorcycle clothing is required for handling and driving tests.",
+      "options": [
+        "Helmet and T-shirt",
+        "Helmet, jeans, trainers",
+        "Helmet, protected jacket/trousers, protected gloves, motorcycle boots",
+        "Only helmet and gloves"
+      ]
+    },
+    {
+      "id": "eq-007",
+      "type": "tf",
+      "topic": "equipment",
+      "source": "Traficom: Moottoripyörän ajokortin hankkiminen",
+      "question": "A one-piece motorcycle suit is acceptable for the test if it meets jacket and trousers protection requirements.",
+      "answer": true,
+      "explanation": "Traficom allows overalls/suit if it meets the same requirements."
+    },
+    {
+      "id": "eq-008",
+      "type": "mc",
+      "topic": "equipment",
+      "source": "Traficom glove requirement rationale",
+      "question": "Motorcycle gloves with protectors primarily help:",
+      "answer": 1,
+      "explanation": "Hands often hit the ground first; protected gloves are required in Traficom tests.",
+      "options": [
+        "Improve radio reception",
+        "Protect hands in slides and impacts",
+        "Increase legal top speed",
+        "Replace mirrors"
+      ]
+    },
+    {
+      "id": "eq-009",
+      "type": "tf",
+      "topic": "equipment",
+      "source": "Traficom footwear requirement",
+      "question": "Ordinary trainers meet Traficom's motorcycle footwear requirement for the handling/driving test.",
+      "answer": false,
+      "explanation": "Motorcycle-intended riding boots are required."
+    },
+    {
+      "id": "eq-010",
+      "type": "tf",
+      "topic": "equipment",
+      "source": "Traficom: protectors must be in place",
+      "question": "For Traficom tests, protectors must be present; deficiencies that affect safety can bar you from the test.",
+      "answer": true,
+      "explanation": "Protectors must be in place and gear must not compromise safety."
+    },
+    {
+      "id": "al-001",
+      "type": "mc",
+      "topic": "alcohol",
+      "source": "Finnish drink-driving thresholds; Traficom driver responsibility",
+      "question": "What is the general blood alcohol concentration (BAC) limit for riding a motorcycle in Finland?",
+      "answer": 1,
+      "explanation": "General drink-driving threshold is 0.5‰ BAC (~0.22 mg/l breath). Aggravated starts at 1.2‰. Best practice: zero alcohol.",
+      "options": [
+        "0.2‰",
+        "0.5‰",
+        "0.8‰",
+        "1.0‰"
+      ]
+    },
+    {
+      "id": "al-002",
+      "type": "tf",
+      "topic": "alcohol",
+      "source": "Finnish drink-driving law",
+      "question": "Riding a motorcycle with 0.6‰ BAC is under the Finnish drink-driving limit.",
+      "answer": false,
+      "explanation": "0.5‰ is the general limit; 0.6‰ already meets the offence threshold."
+    },
+    {
+      "id": "al-003",
+      "type": "mc",
+      "topic": "alcohol",
+      "source": "Aggravated drink-driving threshold",
+      "question": "Aggravated drunken driving (törkeä rattijuopumus) generally begins at which BAC?",
+      "answer": 2,
+      "explanation": "Aggravated drink-driving typically starts at 1.2‰ BAC.",
+      "options": [
+        "0.5‰",
+        "0.8‰",
+        "1.2‰",
+        "2.0‰"
+      ]
+    },
+    {
+      "id": "al-004",
+      "type": "tf",
+      "topic": "alcohol",
+      "source": "Driver responsibility themes",
+      "question": "Coffee and a cold shower reliably reduce BAC fast enough to ride safely after heavy drinking the night before.",
+      "answer": false,
+      "explanation": "Only time lowers BAC. Residual morning alcohol is a common risk."
+    },
+    {
+      "id": "al-005",
+      "type": "mc",
+      "topic": "alcohol",
+      "source": "Narcotics / impairment rules",
+      "question": "Besides alcohol, which statement is correct for motorcycle riders in Finland?",
+      "answer": 1,
+      "explanation": "Driving under the influence of narcotics is punishable; some medicines also impair riding.",
+      "options": [
+        "Only illegal drugs are banned",
+        "Impairment by narcotics can also be punishable",
+        "Prescription medicines never affect fitness",
+        "Police cannot test riders for drugs"
+      ]
+    },
+    {
+      "id": "al-006",
+      "type": "tf",
+      "topic": "alcohol",
+      "source": "Driver responsibility",
+      "question": "Even below 0.5‰, alcohol can reduce motorcycle balance, hazard perception and reaction time.",
+      "answer": true,
+      "explanation": "Legal limit ≠ safe limit. Any alcohol increases motorcycle risk."
+    },
+    {
+      "id": "al-007",
+      "type": "mc",
+      "topic": "alcohol",
+      "source": "Morning-after risk",
+      "question": "You drank heavily until 02:00 and plan to ride at 08:00. The safest decision is:",
+      "answer": 2,
+      "explanation": "Alcohol elimination takes many hours; feeling sober is unreliable.",
+      "options": [
+        "Ride if you feel fine",
+        "Assume coffee cleared it",
+        "Not ride until you are sure BAC is well under the limit—often waiting much longer",
+        "Ride only on quiet roads"
+      ]
+    },
+    {
+      "id": "li-001",
+      "type": "mc",
+      "topic": "lights",
+      "source": "Tieliikennelaki light-use; Finnish daytime light practice",
+      "question": "In Finland, when must a motor vehicle generally use dipped headlights or daytime running lights while driving?",
+      "answer": 2,
+      "explanation": "Dipped headlights or DRL are required whenever driving, day and night, including in built-up areas.",
+      "options": [
+        "Only at night",
+        "Only outside built-up areas",
+        "At all times when driving",
+        "Only in fog"
+      ]
+    },
+    {
+      "id": "li-002",
+      "type": "tf",
+      "topic": "lights",
+      "source": "Tieliikennelaki / Traficom light clarification",
+      "question": "In darkness, dusk, or poor visibility, daytime running lights alone are enough; dipped headlights and rear lights are not needed.",
+      "answer": false,
+      "explanation": "In darkness, dusk or poor visibility, dipped headlights and rear lights are required; DRL alone is not enough."
+    },
+    {
+      "id": "li-003",
+      "type": "mc",
+      "topic": "lights",
+      "source": "Main-beam / dazzle rules",
+      "question": "When must you switch from main beam to dipped beam?",
+      "answer": 1,
+      "explanation": "Do not dazzle others; dip on well-lit roads and when close to other traffic.",
+      "options": [
+        "Never on rural roads",
+        "When you would dazzle others, and on well-lit roads",
+        "Only inside cities",
+        "Only when police are present"
+      ]
+    },
+    {
+      "id": "li-004",
+      "type": "tf",
+      "topic": "lights",
+      "source": "Hazard light use themes",
+      "question": "Hazard warning lights may be used while moving if needed to warn others of an immediate danger.",
+      "answer": true,
+      "explanation": "Finnish rules allow hazard lights on a moving vehicle to warn of immediate danger."
+    },
+    {
+      "id": "li-005",
+      "type": "mc",
+      "topic": "lights",
+      "source": "Fog-light use",
+      "question": "Front fog lights should generally be used:",
+      "answer": 1,
+      "explanation": "Fog lights are for fog, mist or heavy precipitation—not decorative daytime use.",
+      "options": [
+        "Always in daytime for style",
+        "Only in fog, mist, or heavy rain/snow when they help without dazzling",
+        "Whenever over 80 km/h",
+        "Instead of indicators"
+      ]
+    },
+    {
+      "id": "li-006",
+      "type": "tf",
+      "topic": "lights",
+      "source": "Motorcycle conspicuity",
+      "question": "Using lights in daylight helps other drivers judge whether a motorcycle is moving and its direction.",
+      "answer": true,
+      "explanation": "Compulsory daytime lights improve motorcycle detection."
+    },
+    {
+      "id": "li-007",
+      "type": "mc",
+      "topic": "lights",
+      "source": "Parking lights in darkness",
+      "question": "A motorcycle parked on the road in darkness generally needs:",
+      "answer": 1,
+      "explanation": "Vehicles parked on the road in darkness must be lit so others can see them.",
+      "options": [
+        "No lights if within a city",
+        "Position/parking lights as required for visibility",
+        "Main beam left on",
+        "Only a reflective vest on the seat"
+      ]
+    },
+    {
+      "id": "li-008",
+      "type": "mc",
+      "topic": "lights",
+      "source": "Indicator use",
+      "question": "Direction indicators should be:",
+      "answer": 1,
+      "explanation": "Signal early and clearly, then cancel so you do not mislead others.",
+      "options": [
+        "Optional on motorcycles",
+        "Used in good time before turning/changing direction, then cancelled",
+        "Left on permanently",
+        "Replaced by hand signals only at night"
+      ]
+    },
+    {
+      "id": "li-009",
+      "type": "tf",
+      "topic": "lights",
+      "source": "Brake light function",
+      "question": "Both front and rear brake application should normally illuminate the brake light on a properly functioning motorcycle.",
+      "answer": true,
+      "explanation": "Brake-light switches on both controls warn following traffic."
+    },
+    {
+      "id": "sp-001",
+      "type": "mc",
+      "topic": "speed",
+      "source": "Finnish general urban limit practice",
+      "question": "Unless otherwise signed, the typical speed limit inside a Finnish built-up area (taajama) is:",
+      "answer": 1,
+      "explanation": "Default urban/built-up limit is generally 50 km/h unless signs show otherwise.",
+      "options": [
+        "30 km/h",
+        "50 km/h",
+        "60 km/h",
+        "80 km/h"
+      ]
+    },
+    {
+      "id": "sp-002",
+      "type": "mc",
+      "topic": "speed",
+      "source": "Väylävirasto winter motorway practice",
+      "question": "On many Finnish motorways, winter seasonal limits commonly reduce the maximum from 120 km/h to:",
+      "answer": 2,
+      "explanation": "Winter limits typically lower motorways to 100 km/h. Always follow posted signs.",
+      "options": [
+        "60 km/h",
+        "80 km/h",
+        "100 km/h",
+        "110 km/h"
+      ]
+    },
+    {
+      "id": "sp-003",
+      "type": "tf",
+      "topic": "speed",
+      "source": "Tieliikennelaki speed adaptation",
+      "question": "Even below the posted limit, you must adjust motorcycle speed to conditions (wet road, gravel, visibility, traffic).",
+      "answer": true,
+      "explanation": "Posted limits are maxima; choose a safe speed for conditions."
+    },
+    {
+      "id": "sp-004",
+      "type": "mc",
+      "topic": "speed",
+      "source": "Speed limit sign meaning",
+      "question": "A round sign with a red border and the number 80 means:",
+      "answer": 1,
+      "explanation": "Circular red-border speed signs set the maximum permitted speed.",
+      "options": [
+        "Recommended minimum 80",
+        "Maximum speed 80 km/h",
+        "End of all restrictions",
+        "Lane for vehicles over 80 only"
+      ]
+    },
+    {
+      "id": "sp-005",
+      "type": "tf",
+      "topic": "speed",
+      "source": "End of speed limit",
+      "question": "A speed-limit sign crossed out means you may immediately ride as fast as the bike can go.",
+      "answer": false,
+      "explanation": "Ending one limit returns you to the next applicable limit—not unlimited speed."
+    },
+    {
+      "id": "sp-006",
+      "type": "mc",
+      "topic": "speed",
+      "source": "Following distance",
+      "question": "Compared with a car in the same conditions, a motorcycle's safe following distance should generally be:",
+      "answer": 1,
+      "explanation": "Keep a generous gap; surface and technique uncertainty matter more on two wheels.",
+      "options": [
+        "Much shorter always",
+        "At least as long, and often longer when grip is uncertain",
+        "Irrelevant for bikes",
+        "Half a car length"
+      ]
+    },
+    {
+      "id": "sp-007",
+      "type": "tf",
+      "topic": "speed",
+      "source": "Trailer speed themes",
+      "question": "If a motorcycle tows a trailer, lower trailer-related speed limits may apply depending on trailer equipment.",
+      "answer": true,
+      "explanation": "Towing is allowed only when safe; trailer configs can impose lower maxima."
+    },
+    {
+      "id": "sp-008",
+      "type": "mc",
+      "topic": "speed",
+      "source": "Variable speed signs",
+      "question": "On a road with variable electronic signs showing 80 while a previous gantry showed 100, you must:",
+      "answer": 1,
+      "explanation": "The currently displayed variable limit is the enforceable maximum.",
+      "options": [
+        "Keep 100 if traffic is light",
+        "Obey the currently displayed 80",
+        "Use the average",
+        "Ignore electronic signs on a motorcycle"
+      ]
+    },
+    {
+      "id": "sp-009",
+      "type": "mc",
+      "topic": "speed",
+      "source": "Speed near vulnerable users",
+      "question": "Passing parked cars on a narrow street, a prudent motorcycle speed is:",
+      "answer": 1,
+      "explanation": "Speed must match visibility and surprise-hazard potential.",
+      "options": [
+        "Always the signed maximum",
+        "Low enough to stop for a door or pedestrian stepping out",
+        "At least 70 km/h",
+        "Whatever keeps revs high"
+      ]
+    },
+    {
+      "id": "sp-010",
+      "type": "tf",
+      "topic": "speed",
+      "source": "Advisory vs mandatory",
+      "question": "A rectangular advisory speed plate recommends a speed for a hazard but the circular limit remains the legal maximum where posted.",
+      "answer": true,
+      "explanation": "Distinguish mandatory circular limits from advisory plates."
+    },
+    {
+      "id": "sp-011",
+      "type": "mc",
+      "topic": "speed",
+      "source": "End of built-up area",
+      "question": "When you pass the end-of-built-up-area sign and no other speed sign is present, you should:",
+      "answer": 1,
+      "explanation": "Leaving taajama ends the urban default; apply general/signed rural limits and watch for signs.",
+      "options": [
+        "Assume 120 km/h immediately",
+        "Apply the general limit for that road type and conditions, watching for the next signed limit",
+        "Stop and wait",
+        "Ride at walking pace"
+      ]
+    },
+    {
+      "id": "rw-001",
+      "type": "mc",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki junction rules; Liikenneturva",
+      "question": "At an uncontrolled intersection where roads are of equal importance, who typically gives way?",
+      "answer": 1,
+      "explanation": "Default: give way to traffic from the right unless signs change priority.",
+      "options": [
+        "Traffic from the left",
+        "Traffic from the right has priority; you give way to the right",
+        "The faster vehicle",
+        "Motorcycles always go first"
+      ]
+    },
+    {
+      "id": "rw-002",
+      "type": "tf",
+      "topic": "right_of_way",
+      "source": "Turning yield to pedestrians/cyclists",
+      "question": "When turning at a junction, you must give way to pedestrians and cyclists crossing the road you are entering.",
+      "answer": true,
+      "explanation": "Turning drivers yield to pedestrians and cyclists/moped riders crossing the carriageway entered."
+    },
+    {
+      "id": "rw-003",
+      "type": "mc",
+      "topic": "right_of_way",
+      "source": "Poliisi/Liikenneturva zebra guidance",
+      "question": "At a zebra crossing (suojatie), which statement is correct?",
+      "answer": 0,
+      "explanation": "Give pedestrians free passage. A cyclist riding across is not automatically a pedestrian.",
+      "options": [
+        "You must give unobstructed passage to pedestrians on the crossing",
+        "Cyclists riding across always have the same automatic priority as pedestrians",
+        "Motorcycles may ride over without slowing",
+        "Only cars must stop"
+      ]
+    },
+    {
+      "id": "rw-004",
+      "type": "mc",
+      "topic": "right_of_way",
+      "source": "Give-way vs STOP",
+      "question": "An inverted triangle give-way (yield) sign requires you to:",
+      "answer": 1,
+      "explanation": "Yield to intersecting traffic; stop only if necessary. STOP requires a full stop.",
+      "options": [
+        "Stop completely every time",
+        "Give way to traffic on the intersecting road, stopping if necessary",
+        "Accelerate through",
+        "Sound the horn and proceed"
+      ]
+    },
+    {
+      "id": "rw-005",
+      "type": "tf",
+      "topic": "right_of_way",
+      "source": "STOP sign",
+      "question": "A STOP sign always requires a complete stop, even if the road looks empty.",
+      "answer": true,
+      "explanation": "STOP means halt, then proceed when safe after yielding."
+    },
+    {
+      "id": "rw-006",
+      "type": "mc",
+      "topic": "right_of_way",
+      "source": "Roundabout rules Finland",
+      "question": "When entering a roundabout in Finland, you normally:",
+      "answer": 1,
+      "explanation": "Entering traffic yields to vehicles already circulating unless signs say otherwise.",
+      "options": [
+        "Have priority over circulating traffic",
+        "Give way to traffic already in the roundabout",
+        "Stop in the middle",
+        "Use the opposite direction"
+      ]
+    },
+    {
+      "id": "rw-007",
+      "type": "tf",
+      "topic": "right_of_way",
+      "source": "Emergency vehicles",
+      "question": "You must give way to emergency vehicles using blue lights and sound signals.",
+      "answer": true,
+      "explanation": "Clear a path safely without endangering others."
+    },
+    {
+      "id": "rw-008",
+      "type": "mc",
+      "topic": "right_of_way",
+      "source": "Lane change duty",
+      "question": "When changing lanes on a multi-lane road, the rider must:",
+      "answer": 1,
+      "explanation": "Mirror/blind-spot checks; do not endanger or unduly hinder others.",
+      "options": [
+        "Expect others to brake",
+        "Ensure the manoeuvre is safe and does not force others to brake or swerve",
+        "Signal only after moving",
+        "Never check mirrors"
+      ]
+    },
+    {
+      "id": "rw-009",
+      "type": "mc",
+      "topic": "right_of_way",
+      "source": "Exiting private access",
+      "question": "When leaving a yard or private access onto a public road, you must:",
+      "answer": 1,
+      "explanation": "Traffic entering from private areas yields to public-road users.",
+      "options": [
+        "Expect public-road traffic to stop",
+        "Give way to traffic on the public road",
+        "Flash lights and go",
+        "Use the pavement at speed"
+      ]
+    },
+    {
+      "id": "rw-010",
+      "type": "tf",
+      "topic": "right_of_way",
+      "source": "Tram awareness",
+      "question": "Where trams operate, special priority and track-crossing caution rules can apply; do not stop on tracks.",
+      "answer": true,
+      "explanation": "Trams stop slowly; keep tracks clear and obey tram-related rules."
+    },
+    {
+      "id": "rw-011",
+      "type": "tf",
+      "topic": "right_of_way",
+      "source": "Police directing traffic",
+      "question": "Directions from a police officer directing traffic override normal signs and signals while they are controlling the junction.",
+      "answer": true,
+      "explanation": "Follow the officer's instructions in that situation."
+    },
+    {
+      "id": "sg-001",
+      "type": "mc",
+      "topic": "signs",
+      "source": "Finnish traffic sign system",
+      "question": "A triangular sign with a red border generally means:",
+      "answer": 1,
+      "explanation": "Triangular red-border signs are warning signs.",
+      "options": [
+        "Information only",
+        "A warning of a hazard ahead",
+        "A parking bay",
+        "End of motorway"
+      ]
+    },
+    {
+      "id": "sg-002",
+      "type": "mc",
+      "topic": "signs",
+      "source": "Prohibitory signs",
+      "question": "A circular sign with a red border typically:",
+      "answer": 1,
+      "explanation": "Circular red-border signs are mainly prohibitory/restrictive.",
+      "options": [
+        "Gives tourist information",
+        "Prohibits or restricts something (e.g. no entry, speed limit)",
+        "Marks a hospital",
+        "Shows scenic routes"
+      ]
+    },
+    {
+      "id": "sg-003",
+      "type": "tf",
+      "topic": "signs",
+      "source": "No overtaking",
+      "question": "A no-overtaking sign forbids overtaking other motor vehicles in that section (subject to the sign's exact scope).",
+      "answer": true,
+      "explanation": "The no-overtaking prohibitory sign bans overtaking as indicated."
+    },
+    {
+      "id": "sg-004",
+      "type": "mc",
+      "topic": "signs",
+      "source": "Mandatory blue circular",
+      "question": "A blue circular sign with a white arrow generally indicates:",
+      "answer": 1,
+      "explanation": "Blue circular signs are mandatory instructions.",
+      "options": [
+        "A warning",
+        "A mandatory direction or compulsory path",
+        "A temporary diversion only for lorries",
+        "End of all rules"
+      ]
+    },
+    {
+      "id": "sg-005",
+      "type": "tf",
+      "topic": "signs",
+      "source": "Built-up area",
+      "question": "Entering a built-up area (taajama) sign usually means urban speed rules apply until the end-of-area sign.",
+      "answer": true,
+      "explanation": "The taajama sign marks where urban default limits apply."
+    },
+    {
+      "id": "sg-006",
+      "type": "mc",
+      "topic": "signs",
+      "source": "Priority road",
+      "question": "A yellow diamond (priority road) sign means:",
+      "answer": 1,
+      "explanation": "You have priority at upcoming junctions until cancelled.",
+      "options": [
+        "You must always stop",
+        "You have priority at upcoming junctions until cancelled",
+        "Pedestrians have priority everywhere",
+        "The road is closed"
+      ]
+    },
+    {
+      "id": "sg-007",
+      "type": "mc",
+      "topic": "signs",
+      "source": "Loose gravel / slippery warning",
+      "question": "A warning sign for loose gravel or slippery road is especially important for motorcyclists because:",
+      "answer": 1,
+      "explanation": "Two-wheelers have less stability margin on low-grip surfaces. Traficom A topics include road-condition hazards.",
+      "options": [
+        "It only applies to lorries",
+        "Two-wheelers have less stability margin on low-grip surfaces",
+        "Motorcycles ignore warning signs",
+        "It means use the oncoming lane"
+      ]
+    },
+    {
+      "id": "sg-008",
+      "type": "tf",
+      "topic": "signs",
+      "source": "Bus lanes",
+      "question": "Motorcycles may freely use bus lanes in Finland whenever traffic is heavy.",
+      "answer": false,
+      "explanation": "Bus lanes are restricted as signed; motorcycles are generally not allowed unless expressly permitted."
+    },
+    {
+      "id": "sg-009",
+      "type": "mc",
+      "topic": "signs",
+      "source": "No entry",
+      "question": "A round red sign with a horizontal white bar means:",
+      "answer": 1,
+      "explanation": "This is the standard no-entry sign.",
+      "options": [
+        "Parking allowed",
+        "No entry for vehicular traffic",
+        "Hospital ahead",
+        "End of speed limit"
+      ]
+    },
+    {
+      "id": "sg-010",
+      "type": "tf",
+      "topic": "signs",
+      "source": "Roadworks",
+      "question": "Yellow temporary roadworks signs can change layout and priority; reduce speed and follow temporary directions.",
+      "answer": true,
+      "explanation": "Work zones are hazardous for motorcycles (gravel, uneven edges)."
+    },
+    {
+      "id": "sg-011",
+      "type": "mc",
+      "topic": "signs",
+      "source": "Level crossing",
+      "question": "A warning sign for a railway level crossing means you should:",
+      "answer": 1,
+      "explanation": "Approach prepared to stop; never enter if a train approaches or barriers are closing. Tracks are slippery.",
+      "options": [
+        "Race across",
+        "Approach prepared to stop; never enter if a train is approaching or barriers are closing",
+        "Ignore lights on a motorcycle",
+        "Use main beam for fun"
+      ]
+    },
+    {
+      "id": "pa-001",
+      "type": "mc",
+      "topic": "passengers",
+      "source": "Tieliikennelaki §144 passenger carriage",
+      "question": "To carry a passenger on a motorcycle, Finnish rules require among other things:",
+      "answer": 0,
+      "explanation": "A suitable seat and footrests are required; helmet rules still apply to both.",
+      "options": [
+        "A suitable seat and footrests for the passenger",
+        "Only a helmet for the rider",
+        "That the passenger holds luggage instead of footrests",
+        "No special equipment"
+      ]
+    },
+    {
+      "id": "pa-002",
+      "type": "tf",
+      "topic": "passengers",
+      "source": "Tieliikennelaki §6 themes",
+      "question": "The rider must not load or carry a passenger in a way that endangers the passenger or impairs safe control.",
+      "answer": true,
+      "explanation": "Unsafe loading/handling that harms passengers is prohibited."
+    },
+    {
+      "id": "pa-003",
+      "type": "mc",
+      "topic": "passengers",
+      "source": "Child passenger safety",
+      "question": "When carrying a child passenger on a motorcycle, the safest legal approach emphasises:",
+      "answer": 1,
+      "explanation": "Seat/footrests must fit; helmet mandatory; child must sit securely.",
+      "options": [
+        "Speed so the trip is short",
+        "Proper seat/footrests, approved helmet, and secure seating appropriate to the child",
+        "Letting the child stand on pegs",
+        "No helmet if under 10"
+      ]
+    },
+    {
+      "id": "pa-004",
+      "type": "tf",
+      "topic": "passengers",
+      "source": "Passenger behaviour",
+      "question": "A passenger should avoid sudden movements that could upset the motorcycle's balance, especially at low speed.",
+      "answer": true,
+      "explanation": "Passenger movement affects centre of gravity; brief them before riding."
+    },
+    {
+      "id": "pa-005",
+      "type": "mc",
+      "topic": "passengers",
+      "source": "Luggage security",
+      "question": "Luggage on a motorcycle should be:",
+      "answer": 1,
+      "explanation": "Unsecured loads can foul the wheel or change handling dangerously.",
+      "options": [
+        "Stacked loosely",
+        "Securely fastened so it cannot snag the wheel or shift balance dangerously",
+        "Held by the passenger in one hand",
+        "Tied to the helmet strap"
+      ]
+    },
+    {
+      "id": "pa-006",
+      "type": "tf",
+      "topic": "passengers",
+      "source": "Helmet for passengers",
+      "question": "A short trip in a car park means a motorcycle passenger may skip the helmet.",
+      "answer": false,
+      "explanation": "Helmet duty applies while riding; no short-trip exemption for normal use."
+    },
+    {
+      "id": "pa-007",
+      "type": "mc",
+      "topic": "passengers",
+      "source": "Briefing passengers",
+      "question": "Before carrying a new passenger you should brief them to:",
+      "answer": 1,
+      "explanation": "Hold on, feet on pegs, lean with the rider.",
+      "options": [
+        "Lean opposite in corners",
+        "Hold on securely, keep feet on pegs, and lean with the rider",
+        "Signal for the rider",
+        "Operate the front brake"
+      ]
+    },
+    {
+      "id": "wi-001",
+      "type": "mc",
+      "topic": "winter",
+      "source": "Traficom road-condition hazards; Väylävirasto",
+      "question": "Which hazard is especially critical for motorcycles in Finnish winter or near-freezing conditions?",
+      "answer": 0,
+      "explanation": "Black ice and packed snow destroy traction; Traficom A topics include road-condition dangers.",
+      "options": [
+        "Black ice and polished packed snow",
+        "Slightly cooler engine oil only",
+        "Longer daylight only",
+        "Lower fuel prices"
+      ]
+    },
+    {
+      "id": "wi-002",
+      "type": "tf",
+      "topic": "winter",
+      "source": "Seasonal speed limits",
+      "question": "Winter speed limits on many main roads and motorways are often lower than summer limits and are shown by signs.",
+      "answer": true,
+      "explanation": "Finland commonly lowers limits in winter; obey posted/variable signs."
+    },
+    {
+      "id": "wi-003",
+      "type": "mc",
+      "topic": "winter",
+      "source": "Ice microclimates",
+      "question": "In near-zero temperatures after rain, bridges and shaded bends may be icy first because:",
+      "answer": 1,
+      "explanation": "They cool faster / get less sun, so ice forms earlier.",
+      "options": [
+        "They always have grit first",
+        "They cool faster / get less sun, so ice forms earlier",
+        "Motorcycles heat the road",
+        "Salt never works there"
+      ]
+    },
+    {
+      "id": "wi-004",
+      "type": "tf",
+      "topic": "winter",
+      "source": "Tyre readiness",
+      "question": "Worn tyres and cold rubber compound reduce grip and increase stopping distance in autumn/winter conditions.",
+      "answer": true,
+      "explanation": "Mechanical condition affecting safety is an explicit A-class theory topic."
+    },
+    {
+      "id": "wi-005",
+      "type": "mc",
+      "topic": "winter",
+      "source": "Low-grip technique",
+      "question": "On a potentially slippery surface you should generally:",
+      "answer": 1,
+      "explanation": "Smooth inputs and lower speed preserve traction. Painted lines are extra slippery when wet.",
+      "options": [
+        "Increase lean and speed",
+        "Smooth inputs, reduce speed, avoid abrupt braking/acceleration",
+        "Use only the rear brake hard",
+        "Ride on painted markings for grip"
+      ]
+    },
+    {
+      "id": "wi-006",
+      "type": "tf",
+      "topic": "winter",
+      "source": "Dark season conspicuity",
+      "question": "Finland's dark season makes functioning lights and reflective elements even more important for motorcycle conspicuity.",
+      "answer": true,
+      "explanation": "Long nights increase need for lights and high-visibility gear."
+    },
+    {
+      "id": "wi-007",
+      "type": "mc",
+      "topic": "winter",
+      "source": "Winter tyres",
+      "question": "If you choose to ride in winter, tyre choice should prioritise:",
+      "answer": 1,
+      "explanation": "Use tyres appropriate to temperature and surface.",
+      "options": [
+        "Maximum summer race grip",
+        "Suitable cold-weather / winter-capable motorcycle tyres for the conditions",
+        "Slick tyres",
+        "Any car tyre"
+      ]
+    },
+    {
+      "id": "wi-008",
+      "type": "tf",
+      "topic": "winter",
+      "source": "Salt and sand",
+      "question": "Road salt and sand can improve car grip but still create slippery patches and hide potholes for motorcyclists.",
+      "answer": true,
+      "explanation": "Winter maintenance creates motorcycle-specific surface inconsistencies."
+    },
+    {
+      "id": "hw-001",
+      "type": "mc",
+      "topic": "highways",
+      "source": "Tieliikennelaki motorway rules",
+      "question": "On a Finnish motorway (moottoritie), which manoeuvre is prohibited?",
+      "answer": 1,
+      "explanation": "U-turns and reversing are prohibited on motorways and motor traffic roads.",
+      "options": [
+        "Overtaking when safe and legal",
+        "U-turns and reversing",
+        "Using dipped headlights",
+        "Leaving at an exit"
+      ]
+    },
+    {
+      "id": "hw-002",
+      "type": "tf",
+      "topic": "highways",
+      "source": "Motorway access",
+      "question": "Pedestrians, cyclists and slow vehicles that do not meet motorway access rules must not use the motorway.",
+      "answer": true,
+      "explanation": "Motorways are limited-access roads for suitable motor traffic."
+    },
+    {
+      "id": "hw-003",
+      "type": "mc",
+      "topic": "highways",
+      "source": "Filtering",
+      "question": "Filtering between lanes of stopped or slow traffic on Finnish roads is generally:",
+      "answer": 1,
+      "explanation": "Lane filtering/splitting is not a generally permitted practice in Finland.",
+      "options": [
+        "Explicitly encouraged",
+        "Not allowed as a general practice",
+        "Mandatory for motorcycles",
+        "Only allowed above 100 km/h"
+      ]
+    },
+    {
+      "id": "hw-004",
+      "type": "tf",
+      "topic": "highways",
+      "source": "Hard shoulder",
+      "question": "The hard shoulder is for emergencies and authorised stopping, not for routine overtaking.",
+      "answer": true,
+      "explanation": "Using the shoulder to pass is dangerous and unlawful except when directed."
+    },
+    {
+      "id": "hw-005",
+      "type": "mc",
+      "topic": "highways",
+      "source": "Joining motorway",
+      "question": "When joining a motorway from an acceleration lane, you should:",
+      "answer": 1,
+      "explanation": "Match traffic speed when safe and merge without forcing sharp braking.",
+      "options": [
+        "Stop at the end at zero speed",
+        "Match traffic speed when safe and merge without forcing others to brake sharply",
+        "Enter at 30 km/h always",
+        "Use the opposite carriageway"
+      ]
+    },
+    {
+      "id": "hw-006",
+      "type": "tf",
+      "topic": "highways",
+      "source": "Unreasonably slow riding",
+      "question": "Riding much slower than the prevailing safe flow on a high-speed road without reason increases rear-end risk.",
+      "answer": true,
+      "explanation": "If you cannot maintain a safe pace, leave at the next exit."
+    },
+    {
+      "id": "hw-007",
+      "type": "mc",
+      "topic": "highways",
+      "source": "Moottoriliikennetie",
+      "question": "On a motor traffic road (moottoriliikennetie), U-turns and reversing are:",
+      "answer": 1,
+      "explanation": "Also prohibited, as on motorways.",
+      "options": [
+        "Allowed anytime",
+        "Also prohibited, as on motorways",
+        "Allowed only for motorcycles",
+        "Required when lost"
+      ]
+    },
+    {
+      "id": "hw-008",
+      "type": "mc",
+      "topic": "highways",
+      "source": "Breakdown on motorway",
+      "question": "If you break down on a motorway, priority actions include:",
+      "answer": 1,
+      "explanation": "Get clear of live lanes if possible, use hazards, call for help.",
+      "options": [
+        "Stand in the live lane to wave",
+        "Getting yourself and the bike as safely as possible out of live lanes, using hazards, and calling for help",
+        "Walk across all lanes casually",
+        "Continue at 5 km/h in the fast lane"
+      ]
+    },
+    {
+      "id": "lc-001",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom: Moottoripyörän ajokortin hankkiminen",
+      "question": "Category A (unrestricted motorcycle) minimum age is generally:",
+      "answer": 2,
+      "explanation": "Age 24, or 20 if you have held A2 for at least 2 years.",
+      "options": [
+        "16",
+        "18",
+        "24, or 20 if you have held A2 for at least 2 years",
+        "30"
+      ]
+    },
+    {
+      "id": "lc-002",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom A1 definition",
+      "question": "A1 entitles you to ride light motorcycles up to approximately:",
+      "answer": 0,
+      "explanation": "A1: max 125 cm³, max 11 kW, power/weight ≤ 0.1 kW/kg (age 16).",
+      "options": [
+        "125 cm³ and 11 kW (with power/weight limits)",
+        "35 kW only",
+        "Any power if under 24",
+        "50 cm³ only"
+      ]
+    },
+    {
+      "id": "lc-003",
+      "type": "tf",
+      "topic": "licence",
+      "source": "Traficom theory test structure",
+      "question": "For A1/A2/A, the theory test includes multiple-choice, traffic-image, and risk-identification sections, each with its own pass mark.",
+      "answer": true,
+      "explanation": "A classes: 20 (14), 50 (43), 5 (4). Each section must be passed."
+    },
+    {
+      "id": "lc-004",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom theory validity",
+      "question": "A passed theory test is generally valid for:",
+      "answer": 2,
+      "explanation": "Traficom: a passed theory test is valid for one year.",
+      "options": [
+        "1 month",
+        "6 months",
+        "1 year",
+        "5 years"
+      ]
+    },
+    {
+      "id": "lc-005",
+      "type": "tf",
+      "topic": "licence",
+      "source": "Traficom motorcycle process",
+      "question": "Category A candidates take a handling test as well as a theory test and a driving test.",
+      "answer": true,
+      "explanation": "A1/A2/A include a handling test."
+    },
+    {
+      "id": "lc-006",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom A2 definition",
+      "question": "A2 generally limits motorcycle power to a maximum of:",
+      "answer": 2,
+      "explanation": "A2: max 35 kW and max 0.2 kW/kg; not converted from a bike over 70 kW.",
+      "options": [
+        "11 kW",
+        "25 kW",
+        "35 kW (with power/weight and conversion rules)",
+        "70 kW"
+      ]
+    },
+    {
+      "id": "lc-007",
+      "type": "tf",
+      "topic": "licence",
+      "source": "Traficom harjoituslupa",
+      "question": "A motorcycle practice permit can allow practice only after required theory and handling tests (and other conditions) are met.",
+      "answer": true,
+      "explanation": "Traficom lists passed theory and handling among practice-permit conditions."
+    },
+    {
+      "id": "lc-008",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom misconduct (2026 themes)",
+      "question": "Cheating or recording theory-test content can lead to:",
+      "answer": 1,
+      "explanation": "Misconduct leads to a six-month theory-test ban.",
+      "options": [
+        "A verbal warning only",
+        "A ban from taking the theory test (e.g. six months)",
+        "Automatic Category A licence",
+        "No consequences"
+      ]
+    },
+    {
+      "id": "lc-009",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom code 78",
+      "question": "If you take the Category A driving test on a motorcycle without a clutch lever, your licence may be restricted with:",
+      "answer": 1,
+      "explanation": "Testing without a clutch lever leads to restriction code 78 (automatic).",
+      "options": [
+        "Code 70 only",
+        "Code 78 (automatic transmission)",
+        "Code 01 eyesight",
+        "No codes ever apply"
+      ]
+    },
+    {
+      "id": "lc-010",
+      "type": "tf",
+      "topic": "licence",
+      "source": "Traficom theory documents",
+      "question": "You need a valid driving licence permit and photo ID to take the theory test; Ajovarma checks permit validity in Traficom systems.",
+      "answer": true,
+      "explanation": "ID and valid ajokorttilupa are required."
+    },
+    {
+      "id": "lc-011",
+      "type": "mc",
+      "topic": "licence",
+      "source": "Traficom EAS",
+      "question": "If Category A will be your first driving licence, you generally need EAS (first driving licence trainee training) of:",
+      "answer": 1,
+      "explanation": "First-licence candidates complete 4-hour EAS theory training.",
+      "options": [
+        "No theory at all",
+        "4 theory hours of EAS",
+        "40 hours only of motorway driving",
+        "A university degree"
+      ]
+    },
+    {
+      "id": "vi-001",
+      "type": "mc",
+      "topic": "visibility",
+      "source": "Traficom A topic: conspicuity",
+      "question": "A common crash factor involving cars and motorcycles is drivers who:",
+      "answer": 1,
+      "explanation": "Conspicuity is a Traficom A theory topic. Positioning, lights and clothing help.",
+      "options": [
+        "Always see bikes clearly",
+        "Look but fail to perceive the motorcycle",
+        "Prefer motorcycles",
+        "Never turn at junctions"
+      ]
+    },
+    {
+      "id": "vi-002",
+      "type": "tf",
+      "topic": "visibility",
+      "source": "Lane position",
+      "question": "Choosing a lane position that keeps you out of blind spots and visible in mirrors is part of defensive motorcycle riding.",
+      "answer": true,
+      "explanation": "Positioning for visibility reduces SMIDSY conflicts."
+    },
+    {
+      "id": "vi-003",
+      "type": "mc",
+      "topic": "visibility",
+      "source": "Night riding",
+      "question": "At night on an unlit road, using main beam when no traffic would be dazzled helps you:",
+      "answer": 1,
+      "explanation": "Main beam increases seeing distance when it will not dazzle others.",
+      "options": [
+        "Hide from animals",
+        "See further and detect hazards earlier",
+        "Save battery always",
+        "Ride without a helmet"
+      ]
+    },
+    {
+      "id": "vi-004",
+      "type": "tf",
+      "topic": "visibility",
+      "source": "Tinted visor",
+      "question": "A heavily tinted visor can be unsafe at dusk or in tunnels because it reduces your ability to see hazards.",
+      "answer": true,
+      "explanation": "Clear visors are safer when light is low."
+    },
+    {
+      "id": "vi-005",
+      "type": "mc",
+      "topic": "visibility",
+      "source": "Overtaking checks",
+      "question": "Before overtaking on a motorcycle you should:",
+      "answer": 1,
+      "explanation": "Observe–signal–manoeuvre prevents side-swipe and rear conflicts.",
+      "options": [
+        "Only look forward",
+        "Check mirrors and blind spot, signal, then manoeuvre when safe",
+        "Wave and move immediately",
+        "Rely on other drivers' horns"
+      ]
+    },
+    {
+      "id": "vi-006",
+      "type": "tf",
+      "topic": "visibility",
+      "source": "Eye contact myth",
+      "question": "Making eye contact with a car driver guarantees they will not turn across your path.",
+      "answer": false,
+      "explanation": "Eye contact is not a guarantee; always have an escape plan."
+    },
+    {
+      "id": "me-001",
+      "type": "mc",
+      "topic": "mechanics",
+      "source": "Traficom A topic: mechanical safety factors",
+      "question": "Before a ride, which pre-check set is most aligned with motorcycle safety theory topics?",
+      "answer": 1,
+      "explanation": "Mechanical condition is an explicit A theory area.",
+      "options": [
+        "Only fuel level",
+        "Tyres, brakes, lights, chain/drive, controls, mirrors",
+        "Only the phone mount",
+        "Only paint condition"
+      ]
+    },
+    {
+      "id": "me-002",
+      "type": "tf",
+      "topic": "mechanics",
+      "source": "Tyre pressure",
+      "question": "Incorrect tyre pressure can seriously alter motorcycle handling and braking.",
+      "answer": true,
+      "explanation": "Under- or over-inflation changes contact patch and stability."
+    },
+    {
+      "id": "me-003",
+      "type": "mc",
+      "topic": "mechanics",
+      "source": "Brake faults",
+      "question": "If the front brake lever feels spongy and pulls to the bar, you should:",
+      "answer": 1,
+      "explanation": "Do not ride with unreliable brakes.",
+      "options": [
+        "Ride faster to warm fluid",
+        "Not ride until brakes are inspected/repaired",
+        "Use only engine braking on motorways",
+        "Ignore it below 50 km/h"
+      ]
+    },
+    {
+      "id": "me-004",
+      "type": "tf",
+      "topic": "mechanics",
+      "source": "Chain/final drive",
+      "question": "A badly adjusted or dry chain can break or lock the rear wheel.",
+      "answer": true,
+      "explanation": "Final-drive neglect is a known motorcycle mechanical hazard."
+    },
+    {
+      "id": "me-005",
+      "type": "mc",
+      "topic": "mechanics",
+      "source": "ABS",
+      "question": "ABS on a motorcycle is primarily designed to:",
+      "answer": 1,
+      "explanation": "ABS helps prevent wheel lock under braking on many surfaces.",
+      "options": [
+        "Increase top speed",
+        "Help prevent wheel lock under braking on many surfaces",
+        "Replace the need for a helmet",
+        "Disable rear brake use"
+      ]
+    },
+    {
+      "id": "me-006",
+      "type": "tf",
+      "topic": "mechanics",
+      "source": "Lights check",
+      "question": "Checking that brake light and indicators work is part of a responsible pre-ride inspection.",
+      "answer": true,
+      "explanation": "Signalling and brake-light function affect how others predict your actions."
+    },
+    {
+      "id": "me-007",
+      "type": "mc",
+      "topic": "mechanics",
+      "source": "Load and suspension",
+      "question": "Carrying a passenger or heavy luggage may require:",
+      "answer": 1,
+      "explanation": "Load changes geometry and grip; check pressures and preload per the manual.",
+      "options": [
+        "No change ever",
+        "Checking tyre pressures and suspension preload settings per the manual",
+        "Removing the rear brake",
+        "Disabling ABS"
+      ]
+    },
+    {
+      "id": "me-008",
+      "type": "mc",
+      "topic": "mechanics",
+      "source": "Fluid leaks",
+      "question": "Seeing oil or brake fluid under the motorcycle before a ride means:",
+      "answer": 1,
+      "explanation": "Leaks can cause brake/engine failure and a slippery patch—investigate before riding.",
+      "options": [
+        "It is always condensation",
+        "Investigate and fix before riding",
+        "Wipe it and ignore",
+        "Only cars care about leaks"
+      ]
+    },
+    {
+      "id": "ou-001",
+      "type": "mc",
+      "topic": "other_users",
+      "source": "Traficom: other road users",
+      "question": "Near schools and playgrounds you should expect:",
+      "answer": 1,
+      "explanation": "Anticipating vulnerable road users is core driver responsibility content.",
+      "options": [
+        "No children if signs are absent",
+        "Unpredictable child movement and be ready to slow/stop",
+        "That children always use crossings correctly",
+        "That motorcycles have automatic priority"
+      ]
+    },
+    {
+      "id": "ou-002",
+      "type": "tf",
+      "topic": "other_users",
+      "source": "Heavy vehicle blind spots",
+      "question": "Lingering alongside a lorry's cab or trailer on a motorcycle is risky because of large blind spots.",
+      "answer": true,
+      "explanation": "Pass promptly when safe or hang back."
+    },
+    {
+      "id": "ou-003",
+      "type": "mc",
+      "topic": "other_users",
+      "source": "Cyclist interaction",
+      "question": "When turning right across a cycle track continuation, you must:",
+      "answer": 1,
+      "explanation": "Turning traffic yields to cyclists crossing the road being entered.",
+      "options": [
+        "Assume cyclists will stop",
+        "Yield to cyclists crossing as required by turning/yield rules",
+        "Honk continuously",
+        "Block the cycle track"
+      ]
+    },
+    {
+      "id": "ou-004",
+      "type": "tf",
+      "topic": "other_users",
+      "source": "Wildlife Finland",
+      "question": "In rural Finland, especially at dawn/dusk, elk/deer collisions are a real motorcycle hazard; reduce speed in warning-signed areas.",
+      "answer": true,
+      "explanation": "Animal-warning signs mark elevated risk."
+    },
+    {
+      "id": "ou-005",
+      "type": "mc",
+      "topic": "other_users",
+      "source": "Residential streets",
+      "question": "In a residential street with parked cars, a key motorcycle risk is:",
+      "answer": 1,
+      "explanation": "Cover brakes, lower speed, position for an escape path.",
+      "options": [
+        "Too much grip",
+        "Pedestrians or doors appearing suddenly from between cars",
+        "Excess horsepower limits",
+        "Mandatory 120 km/h"
+      ]
+    },
+    {
+      "id": "ou-006",
+      "type": "tf",
+      "topic": "other_users",
+      "source": "Bus stops",
+      "question": "When passing a bus at a stop, expect pedestrians to cross in front of or behind the bus.",
+      "answer": true,
+      "explanation": "Buses hide pedestrians; pass with extra clearance."
+    },
+    {
+      "id": "ou-007",
+      "type": "mc",
+      "topic": "other_users",
+      "source": "Distracted drivers",
+      "question": "If an oncoming car drifts toward your lane, a high-probability cause is:",
+      "answer": 1,
+      "explanation": "Anticipate distraction; move away laterally if space allows.",
+      "options": [
+        "Perfect lane discipline",
+        "Driver distraction or impairment",
+        "Your motorcycle being too quiet only at night",
+        "Correct roundabout use"
+      ]
+    },
+    {
+      "id": "rk-001",
+      "type": "mc",
+      "topic": "risk",
+      "source": "Traficom risk-identification themes",
+      "question": "You approach a junction where a car from the opposite direction is signalling left (your right). The biggest motorcycle-specific risk is often:",
+      "answer": 1,
+      "explanation": "Opposite-direction turns across motorcycle paths are a classic severe crash pattern.",
+      "options": [
+        "That the car will always wait",
+        "The car turns across your path",
+        "That your engine will stall only",
+        "That signs disappear"
+      ]
+    },
+    {
+      "id": "rk-002",
+      "type": "tf",
+      "topic": "risk",
+      "source": "Surface hazards",
+      "question": "Metal tram/train tracks, diesel spills and wet manhole covers can cause sudden motorcycle slides.",
+      "answer": true,
+      "explanation": "Road-surface hazards are emphasised in A-class theory topics."
+    },
+    {
+      "id": "rk-003",
+      "type": "mc",
+      "topic": "risk",
+      "source": "Group riding",
+      "question": "In a group of motorcycles, a safer pattern is usually:",
+      "answer": 1,
+      "explanation": "Staggered formation preserves stopping space and visibility.",
+      "options": [
+        "Side-by-side tightly at high speed",
+        "Staggered formation with space to brake",
+        "Drafting centimetres behind the leader",
+        "Ignoring indicators"
+      ]
+    },
+    {
+      "id": "rk-004",
+      "type": "tf",
+      "topic": "risk",
+      "source": "Fatigue",
+      "question": "Fatigue degrades hazard perception similarly to mild impairment and is dangerous on a motorcycle.",
+      "answer": true,
+      "explanation": "Driver condition (kuljettaja) is a core theory area."
+    },
+    {
+      "id": "rk-005",
+      "type": "mc",
+      "topic": "risk",
+      "source": "Overtaking assessment",
+      "question": "Before overtaking on a two-way road, you must be sure of:",
+      "answer": 1,
+      "explanation": "Need sight distance, oncoming traffic, markings/signs, and a safe return gap.",
+      "options": [
+        "Only your bike's power",
+        "Sight distance, oncoming traffic, road markings/signs, and a safe return gap",
+        "That the other driver waves",
+        "That it is after sunset"
+      ]
+    },
+    {
+      "id": "rk-006",
+      "type": "tf",
+      "topic": "risk",
+      "source": "Target fixation",
+      "question": "Staring at a hazard (target fixation) can steer a motorcycle toward it; look to the escape path instead.",
+      "answer": true,
+      "explanation": "Riders go where they look."
+    },
+    {
+      "id": "rk-007",
+      "type": "mc",
+      "topic": "risk",
+      "source": "Emergency stop",
+      "question": "In an emergency stop on good grip with ABS, a typical good practice is:",
+      "answer": 1,
+      "explanation": "Progressive firm use of both brakes, bike as upright as possible.",
+      "options": [
+        "Grab only the rear brake",
+        "Progressive firm use of both brakes while keeping the bike upright as possible",
+        "Lay the bike down deliberately",
+        "Release the bars"
+      ]
+    },
+    {
+      "id": "rk-008",
+      "type": "mc",
+      "topic": "risk",
+      "source": "Blind bends",
+      "question": "Entering a blind bend too fast is dangerous mainly because:",
+      "answer": 1,
+      "explanation": "You may not stop or tighten line for an unseen hazard. Ride to the visible clear distance.",
+      "options": [
+        "Your licence number changes",
+        "You may not be able to stop or tighten line for an unseen hazard",
+        "Bends increase fuel use only",
+        "Signs become invalid"
+      ]
+    },
+    {
+      "id": "rk-009",
+      "type": "tf",
+      "topic": "risk",
+      "source": "Peer pressure",
+      "question": "Keeping up with a faster group beyond your skill or the speed limit is a common preventable motorcycle risk.",
+      "answer": true,
+      "explanation": "Ride your own ride; group pressure is a recognised risk factor."
+    },
+    {
+      "id": "dg-001",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki 729/2018 — väistämisvelvollisuus oikealta (uncontrolled equal roads)",
+      "situation": "Uncontrolled crossroads. Roads of equal importance. You (motorcycle YOU) approach from the south. Car A approaches from the east (your right). Both intend to go straight.",
+      "question": "Who should go first?",
+      "options": [
+        "YOU — motorcycles always have priority",
+        "Car A — traffic from the right has priority",
+        "Whoever arrives first, regardless of side",
+        "Car A must stop because YOU are smaller"
+      ],
+      "answer": 1,
+      "explanation": "At an uncontrolled junction of equal roads in Finland, you must give way to traffic coming from the right (väistämisvelvollisuus oikealta tulevaa kohtaan). Car A is on your right, so A goes first.",
+      "diagramAscii": "Crossroads: YOU↑ from S; A← from E (your right). Equal roads, no signs.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"160,175 151,157 169,157\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"167\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-002",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — give-way (kärkikolmio) at T-junction",
+      "situation": "T-junction. You approach from the stem (south) with a give-way triangle. Cars A (from left/west) and B (from right/east) travel on the through road.",
+      "question": "What must YOU do?",
+      "options": [
+        "Enter as soon as the nearer gap looks big enough for a car",
+        "Give way to both A and B on the through road, then proceed when clear",
+        "Only give way to B because they are on the right",
+        "Sound the horn and filter between A and B"
+      ],
+      "answer": 1,
+      "explanation": "A give-way sign (kärkikolmio) means you must yield to traffic on the road you are entering. Both A and B on the through road have priority over you.",
+      "diagramAscii": "T-junction: YOU↑ from S with yield; A→ from W; B← from E on through road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"150\" width=\"60\" height=\"90\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"46.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"60\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"246.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><polygon points=\"160,178 151,160 169,160\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"170\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-003",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — STOP sign (pakollinen pysäyttäminen)",
+      "situation": "You approach a STOP line from the south. Car A is already in the junction from the west, continuing east. Car B waits opposite you.",
+      "question": "Correct action for YOU?",
+      "options": [
+        "Slow-roll through if A looks far enough",
+        "Come to a complete stop at the line, then go only when the way is clear",
+        "Stop only if another vehicle is already inside the junction",
+        "Wave B through, then go without stopping"
+      ],
+      "answer": 1,
+      "explanation": "A STOP sign requires a full stop at the stop line (or before entering if there is no line), then proceed only when it does not endanger or hinder others.",
+      "diagramAscii": "Crossroads: YOU↑ STOP from S; A→ already crossing from W; B waiting from N.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,191 151,215 169,215\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"205\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"227\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"76.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"90\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"151.0\" y=\"31.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"23.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><rect x=\"151\" y=\"159\" width=\"18\" height=\"18\" rx=\"3\" fill=\"#c0392b\"/><text x=\"160\" y=\"172\" fill=\"#fff\" font-size=\"7\" text-anchor=\"middle\" font-weight=\"700\">STOP</text><line x1=\"135\" y1=\"155\" x2=\"185\" y2=\"155\" stroke=\"#e8eef7\" stroke-width=\"3\"/></svg>"
+    },
+    {
+      "id": "dg-004",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — turning left vs oncoming traffic",
+      "situation": "You (YOU) travel north and want to turn left. Oncoming car A travels south straight through. No traffic lights.",
+      "question": "Who goes first?",
+      "options": [
+        "YOU turn left first — left turn has priority",
+        "Car A going straight — you give way before turning left across their path",
+        "Both enter together and weave",
+        "Whoever flashes headlights first"
+      ],
+      "answer": 1,
+      "explanation": "When turning left you must give way to oncoming traffic going straight (and usually to those turning right). Complete the left turn only when it does not hinder A.",
+      "diagramAscii": "YOU↑ turning left; oncoming A↓ going straight.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"148,171 139,195 157,195\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"148\" cy=\"185\" r=\"3\" fill=\"#041018\"/><text x=\"148\" y=\"207\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"163.0\" y=\"36.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"172\" y=\"28.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><path d=\"M148,170 Q148,120 110,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"95\" y=\"110\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">← L</text></svg>"
+    },
+    {
+      "id": "dg-005",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Tieliikennelaki — turning right; pedestrians on exiting road",
+      "situation": "You turn right from south onto the eastbound road. Pedestrian P is on the zebra across the road you are entering. Car A approaches from the west on that road.",
+      "question": "What is the correct order?",
+      "options": [
+        "YOU cut ahead of P, then negotiate with A",
+        "Give way to pedestrian P (and check cyclists); also do not force A to brake hard",
+        "A must stop for you because you are already turning",
+        "Motorcycles may roll through zebras without yielding"
+      ],
+      "answer": 1,
+      "explanation": "When turning you must give unobstructed passage to pedestrians on the crossing of the road you enter, and you must not endanger traffic on that road. Yield to P; enter only when safe relative to A.",
+      "diagramAscii": "YOU↑ turning right; zebra + P on exit road; A→ from W.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><rect x=\"190\" y=\"95.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"105.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"115.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"125.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"135.0\" width=\"50\" height=\"8.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"215\" cy=\"116\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"212\" y=\"120\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"215\" y=\"138\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"36.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"50\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><path d=\"M160,170 Q160,140 200,130\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-006",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Finnish roundabout practice — yield to traffic in the circle",
+      "situation": "You approach a single-lane roundabout from the south. Car A is already circulating, coming from your left toward your entry.",
+      "question": "What should YOU do?",
+      "options": [
+        "Enter immediately — roundabout traffic always yields to entrants",
+        "Give way to A already in the roundabout, then enter when there is a safe gap",
+        "Stop in the circle to let A pass outside",
+        "Lane-split past A inside the roundabout"
+      ],
+      "answer": 1,
+      "explanation": "At a Finnish roundabout you normally give way to traffic already in the circulatory carriageway. Enter only with a safe gap; signal appropriately when exiting.",
+      "diagramAscii": "Roundabout: YOU↑ at S entry; A circulating from W toward S.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"48\" fill=\"#3a4a62\" stroke=\"#6b7d96\" stroke-width=\"2\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"22\" fill=\"#1a2838\" stroke=\"#8a9bb0\" stroke-width=\"1\"/>\n    <defs><marker id=\"ra\" markerWidth=\"5\" markerHeight=\"5\" refX=\"4\" refY=\"2.5\" orient=\"auto\"><path d=\"M0,0 L5,2.5 L0,5 Z\" fill=\"#9fb0c8\"/></marker></defs>\n    <path d=\"M160,98 A22,22 0 0,1 182,120\" fill=\"none\" stroke=\"#9fb0c8\" stroke-width=\"2\" marker-end=\"url(#ra)\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"86.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"100\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"160,185 151,167 169,167\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"177\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-007",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Roundabout exit — signal and path",
+      "situation": "You are in a single-lane roundabout and will take the first exit to the right (east). Car B is waiting to enter from the east arm.",
+      "question": "Best practice?",
+      "options": [
+        "Stay silent on indicators; B must guess",
+        "Indicate right in good time before the exit; leave space so B is not blocked unfairly at the line",
+        "Stop inside the circle until B enters",
+        "Cut across the central island to shorten the exit"
+      ],
+      "answer": 1,
+      "explanation": "Signal your exit clearly and in time. Keep a predictable line in the lane; do not stop abruptly in the circle. B yields to circulating traffic but benefits from clear signalling.",
+      "diagramAscii": "YOU in circle exiting E; B waiting on east arm.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"48\" fill=\"#3a4a62\" stroke=\"#6b7d96\" stroke-width=\"2\"/>\n    <circle cx=\"160\" cy=\"120\" r=\"22\" fill=\"#1a2838\" stroke=\"#8a9bb0\" stroke-width=\"1\"/>\n    <defs><marker id=\"ra\" markerWidth=\"5\" markerHeight=\"5\" refX=\"4\" refY=\"2.5\" orient=\"auto\"><path d=\"M0,0 L5,2.5 L0,5 Z\" fill=\"#9fb0c8\"/></marker></defs>\n    <path d=\"M160,98 A22,22 0 0,1 182,120\" fill=\"none\" stroke=\"#9fb0c8\" stroke-width=\"2\" marker-end=\"url(#ra)\"/><polygon points=\"204,120 180,111 180,129\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"190\" cy=\"120\" r=\"3\" fill=\"#041018\"/><text x=\"190\" y=\"142\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"256.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"270\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><path d=\"M185,120 L230,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-008",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Priority to the right — four-way, two others",
+      "situation": "Uncontrolled equal crossroads. YOU from south going straight. Car A from east going straight. Car B from west going straight.",
+      "question": "Who has priority over YOU?",
+      "options": [
+        "Nobody — YOU go first",
+        "Car A (from your right); you give way to A. B gives way to you",
+        "Both A and B always go before any motorcycle",
+        "B only, because they are larger"
+      ],
+      "answer": 1,
+      "explanation": "Give way to the right: A is on your right so A has priority over you. You are on B’s right, so B should give way to you. Resolve conflicts carefully — never assume others know the rule.",
+      "diagramAscii": "YOU↑ S; A← E (your right); B→ W.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"56.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"70\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text></svg>"
+    },
+    {
+      "id": "dg-009",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Tieliikennelaki — suojatie (zebra) duties",
+      "situation": "You ride north on a straight road. A zebra crossing lies ahead. Pedestrian P has stepped onto the crossing from the left. Car A behind you.",
+      "question": "Correct behaviour?",
+      "options": [
+        "Accelerate to clear before P reaches your lane",
+        "Slow/stop to give P unobstructed passage; check mirrors so A is not surprised",
+        "Sound horn so P waits on the island",
+        "Ride on the pavement to go around P"
+      ],
+      "answer": 1,
+      "explanation": "Drivers must give pedestrians unobstructed passage on a zebra crossing. Approach so you can stop; be predictable for following traffic.",
+      "diagramAscii": "Road N-S: YOU↑; zebra ahead; P on crossing; A behind.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"100.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"124.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"148.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"172.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"196.0\" y=\"100\" width=\"22.0\" height=\"22\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"115\" cy=\"108\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"112\" y=\"112\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"115\" y=\"130\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><polygon points=\"160,176 151,200 169,200\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"190\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"212\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"216.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"256.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-010",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Cyclists at junctions / crossings — Finnish practice themes",
+      "situation": "You turn right from south to east. A cyclist (Cyc) rides on the cycle track parallel, approaching the crossing of the road you enter from your right.",
+      "question": "What should YOU expect?",
+      "options": [
+        "Cyclists never have any priority when you turn",
+        "Check carefully and be prepared to give way — turning traffic must not endanger cyclists crossing the road you enter",
+        "Always cut in front; bikes must stop for motors",
+        "Only cars yield to bikes; motorcycles are exempt"
+      ],
+      "answer": 1,
+      "explanation": "When turning onto a road you must not endanger pedestrians or cyclists crossing that road. Scan the cycle track/crossing and yield as required by the situation and markings.",
+      "diagramAscii": "YOU↑ turning right; Cyc approaching crossing on exit road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><rect x=\"190\" y=\"100.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"108.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"116.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"124.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"190\" y=\"132.0\" width=\"40\" height=\"6.0\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"224\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><line x1=\"224\" y1=\"80\" x2=\"236\" y2=\"80\" stroke=\"#1abc9c\" stroke-width=\"2\"/><text x=\"230\" y=\"96\" fill=\"#1abc9c\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">Cyc</text><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><path d=\"M160,170 Q170,140 210,130\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-011",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Traficom A topics — conspicuity / lane position",
+      "situation": "Urban two-lane road, traffic ahead slow. You need to be seen by car A waiting to pull out from a side road on the right.",
+      "question": "Best lane position for visibility to A?",
+      "options": [
+        "Hug the far-left gutter, fully hidden behind parked vans",
+        "A clear mid-to-left position in your lane so A can see you past other vehicles — not buried in A’s blind spot",
+        "Ride on the centre line against oncoming traffic",
+        "Always filter the extreme right edge next to A’s bumper"
+      ],
+      "answer": 1,
+      "explanation": "Choose a position that maximises being seen (and seeing). Mid/left in your lane often opens the sightline to side-road drivers; avoid hiding behind larger vehicles.",
+      "diagramAscii": "YOU in lane; side road with A waiting right; parked cars blocking if YOU hug kerb.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"110\" y=\"0\" width=\"100\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"210\" y=\"90\" width=\"110\" height=\"50\" fill=\"#3a4a62\"/><rect x=\"85\" y=\"40\" width=\"22\" height=\"40\" fill=\"#5a6a80\"/><rect x=\"85\" y=\"150\" width=\"22\" height=\"40\" fill=\"#5a6a80\"/><polygon points=\"145,166 136,190 154,190\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"145\" cy=\"180\" r=\"3\" fill=\"#041018\"/><text x=\"145\" y=\"202\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"246.0\" y=\"106.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"136.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><text x=\"145\" y=\"30\" fill=\"#9fb0c8\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">better sightline</text></svg>"
+    },
+    {
+      "id": "dg-012",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Motorcycle lane position — filtering / queue",
+      "situation": "Queue of cars in a single lane approaching lights. Gap exists between stopped cars A and B. Oncoming lane is clear of opposing traffic but not a legal overtake zone for speed.",
+      "question": "Responsible filtering approach?",
+      "options": [
+        "High speed down the oncoming lane regardless of space",
+        "Only if legal and safe locally: slow, controlled progress with cover of brakes, expecting doors/gaps; never force between mirrors",
+        "Rev loudly so cars must open a corridor",
+        "Jump the kerb onto the pavement"
+      ],
+      "answer": 1,
+      "explanation": "Filtering is a high-risk choice. Where permitted and safe, keep speed low, watch for pedestrians and opening doors, and be ready to stop. Do not use the pavement or endanger oncoming traffic.",
+      "diagramAscii": "Queue A then B; YOU considering slow filter past nearside/offside with care.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"120\" y=\"0\" width=\"80\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"151.0\" y=\"46.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"38.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"151.0\" y=\"106.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"98.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><polygon points=\"195,166 186,190 204,190\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"195\" cy=\"180\" r=\"3\" fill=\"#041018\"/><text x=\"195\" y=\"202\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><text x=\"55\" y=\"120\" fill=\"#9fb0c8\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">slow filter?</text></svg>"
+    },
+    {
+      "id": "dg-013",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Lane position before left turn — see and be seen",
+      "situation": "You prepare a left turn at lights (or junction). Car A behind. Oncoming B. You currently sit far right in your lane.",
+      "question": "Better position before turning left?",
+      "options": [
+        "Stay glued to the right kerb until the last metre",
+        "Move early toward the left part of your lane (when safe) so your left-turn intent is clear and you see oncoming B better",
+        "Straddle the centre continuously for 200 m",
+        "Turn from the bicycle lane without looking"
+      ],
+      "answer": 1,
+      "explanation": "Adopt a leftward position in your lane in good time (when safe and lawful) so others read your intention and you get a better view of oncoming traffic before turning.",
+      "diagramAscii": "YOU shifting left in lane before left turn; B oncoming; A behind.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"175,176 166,200 184,200\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"175\" cy=\"190\" r=\"3\" fill=\"#041018\"/><text x=\"175\" y=\"212\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"216.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"256.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"136.0\" y=\"31.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"145\" y=\"23.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><path d=\"M175,175 Q175,130 120,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-014",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Merging / slip road — acceleration lane themes",
+      "situation": "You are on a slip road merging into a carriageway. Car A is on the main carriageway alongside your merge zone.",
+      "question": "Correct merge mindset?",
+      "options": [
+        "Assume A must always brake hard for you",
+        "Use the acceleration lane to match speed, mirror/shoulder-check, and merge without forcing A into an emergency swerve",
+        "Stop at the end of the slip road every time, even if empty",
+        "Enter diagonally across all lanes at once"
+      ],
+      "answer": 1,
+      "explanation": "Build appropriate speed in the acceleration lane, check blind spots, and merge smoothly into a gap. Do not rely on others making emergency room for you.",
+      "diagramAscii": "Slip road YOU↗ merging; A on main carriageway.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"100\" y=\"0\" width=\"70\" height=\"240\" fill=\"#3a4a62\"/>\n    <path d=\"M0,200 L100,120 L100,180 L40,240 Z\" fill=\"#3a4a62\"/>\n    <line x1=\"135\" y1=\"0\" x2=\"135\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"50,186 41,210 59,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"50\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"126.0\" y=\"66.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"135\" y=\"58.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><path d=\"M55,185 Q90,150 125,140\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-015",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Uncontrolled junction — YOU on the right of another",
+      "situation": "Equal uncontrolled crossroads. YOU from east going west. Car A from south going north. Paths cross.",
+      "question": "Who should yield?",
+      "options": [
+        "YOU yield to A",
+        "Car A yields to YOU — you are coming from A’s right",
+        "Always the motorcycle yields",
+        "Flash headlights to cancel the rule"
+      ],
+      "answer": 1,
+      "explanation": "Priority to the right: from A’s viewpoint you approach from the right, so A should give way to you. Still approach ready to stop if A does not comply.",
+      "diagramAscii": "YOU← from E; A↑ from S. YOU is on A’s right.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"236,120 260,111 260,129\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"250\" cy=\"120\" r=\"3\" fill=\"#041018\"/><text x=\"250\" y=\"142\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"186.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"226.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-016",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Give-way vs through traffic turning",
+      "situation": "YOU on a minor road with yield, turning left onto the major road. Car A approaches from the right on the major road; car B from the left.",
+      "question": "When may YOU turn left?",
+      "options": [
+        "As soon as you reach the give-way line",
+        "Only when both directions on the major road are clear enough for a safe left turn (yield to A and B)",
+        "Immediately after A passes, ignoring B",
+        "Whenever your front wheel is past the line"
+      ],
+      "answer": 1,
+      "explanation": "From a give-way approach you must not hinder traffic on the major road. A left turn needs adequate gaps in both directions.",
+      "diagramAscii": "YOU↑ yield turning left; A← and B→ on major road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"150\" width=\"60\" height=\"90\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"246.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><rect x=\"46.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"60\" y=\"141.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">B</text><polygon points=\"160,178 151,160 169,160\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"170\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text><path d=\"M160,180 Q160,140 100,120\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    },
+    {
+      "id": "dg-017",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Pedestrian crossing + motorcycle approach speed",
+      "situation": "YOU approach a zebra. Pedestrian P stands at the kerb looking ready to cross. Car A is oncoming.",
+      "question": "Safest plan?",
+      "options": [
+        "Maintain speed — standing pedestrians never cross",
+        "Cover brakes, reduce speed, and be ready to stop so P can cross; watch A’s behaviour too",
+        "Wave P across while blocking A aggressively",
+        "Ride between P and the kerb"
+      ],
+      "answer": 1,
+      "explanation": "Approach crossings expecting pedestrians to step out. Adjust speed early so you can give unobstructed passage without panic braking.",
+      "diagramAscii": "YOU↑ to zebra; P at kerb; A oncoming.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"105.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"127.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"149.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"171.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><rect x=\"193.0\" y=\"95\" width=\"20.0\" height=\"20\" fill=\"#e8eef7\" opacity=\"0.85\"/><circle cx=\"100\" cy=\"101\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"97\" y=\"105\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"100\" y=\"123\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><polygon points=\"160,176 151,200 169,200\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"190\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"212\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"26.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"18.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-018",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Two give-way approaches meeting",
+      "situation": "Small crossroads. YOU from south with yield, going straight. Car A from east with yield, going straight. No one else present.",
+      "question": "Practical safe resolution?",
+      "options": [
+        "Race to seize the middle",
+        "Both have yield duties to the intersecting road — proceed only with clear mutual understanding; often the one with the other on their right waits (A on your right)",
+        "Motorcycles always roll first at double-yield",
+        "Reverse away and abandon the junction"
+      ],
+      "answer": 1,
+      "explanation": "When both approaches show give-way, treat it carefully: do not assume. Priority-to-the-right still guides many equal conflicts — A is on your right — but eye contact and slow approach prevent stalemate crashes.",
+      "diagramAscii": "YOU↑ yield; A← yield from E (your right).",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,191 151,215 169,215\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"205\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"227\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"160,178 151,160 169,160\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"170\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text><polygon points=\"205,130 196,112 214,112\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"205\" y=\"122\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-019",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Position for view through a right-hand bend",
+      "situation": "Open right-hand bend on a country road. Limited sight distance. Oncoming car risk.",
+      "question": "Which position helps you see earlier?",
+      "options": [
+        "Tight against the right edge the whole way — shortest radius only",
+        "A sensible leftward position in your lane (not over the centre) to open the view around the bend, then adjust",
+        "Cross fully into the oncoming lane for “better apex”",
+        "Close your eyes and trust luck"
+      ],
+      "answer": 1,
+      "explanation": "On a right bend, a carefully chosen position toward the left of your lane (while staying in lane) often improves sightlines to oncoming traffic. Never claim the oncoming lane as a racing line.",
+      "diagramAscii": "Right bend; YOU using left-of-lane sightline.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><path d=\"M40,200 Q160,200 160,120 Q160,40 280,40\" fill=\"none\" stroke=\"#3a4a62\" stroke-width=\"50\"/><path d=\"M40,200 Q160,200 160,120 Q160,40 280,40\" fill=\"none\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"114,195 90,186 90,204\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"100\" cy=\"195\" r=\"3\" fill=\"#041018\"/><text x=\"100\" y=\"217\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"36.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"66.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text></svg>"
+    },
+    {
+      "id": "dg-020",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Exiting private access / yard onto road",
+      "situation": "YOU leave a yard/driveway onto a public road. Car A approaches from the left; cyclist Cyc from the right on the road.",
+      "question": "Duty when entering the road?",
+      "options": [
+        "Road users on the public road must always stop for exiting yards",
+        "YOU must give way to traffic on the road (including A and the cyclist) before entering",
+        "Only yield to motor vehicles, not cyclists",
+        "Enter with a wheelspin so others notice"
+      ],
+      "answer": 1,
+      "explanation": "When coming from a yard, path, or similar access you must give way to road users on the carriageway you enter — including cyclists.",
+      "diagramAscii": "YOU from driveway S; A→ ; Cyc← on public road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"100\" width=\"320\" height=\"50\" fill=\"#3a4a62\"/><rect x=\"145\" y=\"150\" width=\"30\" height=\"90\" fill=\"#3a4a62\"/><polygon points=\"160,196 151,220 169,220\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"210\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"232\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"46.0\" y=\"116.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"60\" y=\"146.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><circle cx=\"254\" cy=\"125\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><circle cx=\"266\" cy=\"125\" r=\"5\" fill=\"none\" stroke=\"#1abc9c\" stroke-width=\"2\"/><line x1=\"254\" y1=\"125\" x2=\"266\" y2=\"125\" stroke=\"#1abc9c\" stroke-width=\"2\"/><text x=\"260\" y=\"141\" fill=\"#1abc9c\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">Cyc</text><polygon points=\"160,175 151,157 169,157\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"160\" y=\"167\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text></svg>"
+    },
+    {
+      "id": "dg-021",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Traffic lights — amber / stop line judgement (practice theme)",
+      "situation": "YOU approach green that turns amber. Stop line is close; car A is close behind. Crossing is clear.",
+      "question": "Best principle?",
+      "options": [
+        "Always race the amber regardless of distance",
+        "If you can stop safely at the line without risking a rear-end from A, stop; if already too close to stop safely, continue with care",
+        "Brake as hard as possible mid-junction",
+        "Turn around in the junction"
+      ],
+      "answer": 1,
+      "explanation": "Amber means stop unless you cannot do so safely. Factor following distance (A) and your speed. Never accelerate aggressively “to beat” the light as a habit.",
+      "diagramAscii": "YOU↑ near stop line; signal amber; A behind.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><rect x=\"168\" y=\"70\" width=\"14\" height=\"36\" rx=\"2\" fill=\"#222\"/><circle cx=\"175\" cy=\"78\" r=\"4\" fill=\"#555\"/><circle cx=\"175\" cy=\"88\" r=\"4\" fill=\"#f1c40f\"/><circle cx=\"175\" cy=\"98\" r=\"4\" fill=\"#555\"/><polygon points=\"160,161 151,185 169,185\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"175\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"197\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"151.0\" y=\"206.0\" width=\"18\" height=\"28\" rx=\"3\" fill=\"#f1c40f\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"160\" y=\"246.0\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><line x1=\"135\" y1=\"155\" x2=\"185\" y2=\"155\" stroke=\"#e8eef7\" stroke-width=\"3\"/></svg>"
+    },
+    {
+      "id": "dg-022",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "other_users",
+      "source": "Bus stop conflicts — motorcycle space",
+      "situation": "Bus B indicates leaving a stop. YOU are alongside in a narrow urban lane. Pedestrian island ahead.",
+      "question": "Safer choice?",
+      "options": [
+        "Pinch between bus and kerb at speed",
+        "Hold back and give the bus room to merge if required; never squeeze a vanishing gap beside a large vehicle",
+        "Overtake on the pavement",
+        "Undertaking while watching only your phone"
+      ],
+      "answer": 1,
+      "explanation": "Large vehicles need space. Avoid filtering into collapsing gaps beside buses at stops; anticipate pedestrians and the bus pulling out.",
+      "diagramAscii": "Bus at stop pulling out; YOU behind/alongside deciding to hold back.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"100\" y=\"0\" width=\"90\" height=\"240\" fill=\"#3a4a62\"/><rect x=\"115\" y=\"40\" width=\"40\" height=\"90\" rx=\"4\" fill=\"#f1c40f\"/><text x=\"135\" y=\"90\" fill=\"#041018\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">BUS</text><polygon points=\"175,166 166,190 184,190\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"175\" cy=\"180\" r=\"3\" fill=\"#041018\"/><text x=\"175\" y=\"202\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><circle cx=\"70\" cy=\"96\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"67\" y=\"100\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"70\" y=\"118\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text></svg>"
+    },
+    {
+      "id": "dg-023",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "Priority road (etutie) vs side road",
+      "situation": "YOU travel on a priority road straight through. Car A waits at a give-way from the right-hand side road.",
+      "question": "Who proceeds first?",
+      "options": [
+        "Car A — side roads always win",
+        "YOU on the priority road — A must give way",
+        "Whichever vehicle is heavier",
+        "Always stop together and restart"
+      ],
+      "answer": 1,
+      "explanation": "On a priority road (etutie) you generally have priority over traffic entering from side roads marked with give-way/stop. Stay alert — side-road drivers may misjudge your motorcycle speed.",
+      "diagramAscii": "YOU↑ on priority road; A at yield from right side road.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><rect x=\"130\" y=\"0\" width=\"60\" height=\"240\" fill=\"#3a4a62\"/>\n    <line x1=\"0\" y1=\"120\" x2=\"130\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"190\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"90\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/>\n    <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"160,186 151,210 169,210\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"200\" r=\"3\" fill=\"#041018\"/><text x=\"160\" y=\"222\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"236.0\" y=\"111.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"250\" y=\"141.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><polygon points=\"205,130 196,112 214,112\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"2\"/><text x=\"205\" y=\"122\" fill=\"#e67e22\" font-size=\"8\" text-anchor=\"middle\" font-weight=\"700\">!</text><text x=\"160\" y=\"20\" fill=\"#2ecc71\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">PRIORITY</text></svg>"
+    },
+    {
+      "id": "dg-024",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "visibility",
+      "source": "Group riding / staggered position (practice safety theme)",
+      "situation": "Two motorcycles. YOU lead. Rider M2 follows. Straight wide lane, dry, light traffic.",
+      "question": "Safer formation in a shared lane?",
+      "options": [
+        "Side-by-side handlebar to handlebar at speed",
+        "Staggered positions (lead left-of-lane / follower right-of-lane or vice versa) with generous following distance",
+        "Draft within one metre of YOU’s rear tyre",
+        "M2 rides in the oncoming lane “as mirror”"
+      ],
+      "answer": 1,
+      "explanation": "Staggered formation improves visibility and stopping space versus riding abreast or tightly drafted. Keep enough gap to brake independently.",
+      "diagramAscii": "YOU left-of-lane; M2 right-of-lane behind, staggered.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"110\" y=\"0\" width=\"100\" height=\"240\" fill=\"#3a4a62\"/><line x1=\"160\" y1=\"0\" x2=\"160\" y2=\"240\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"140,66 131,90 149,90\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"140\" cy=\"80\" r=\"3\" fill=\"#041018\"/><text x=\"140\" y=\"102\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><polygon points=\"180,146 171,170 189,170\" fill=\"#9b59b6\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"180\" cy=\"160\" r=\"3\" fill=\"#041018\"/><text x=\"180\" y=\"182\" fill=\"#9b59b6\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">M2</text></svg>"
+    },
+    {
+      "id": "dg-025",
+      "type": "mc",
+      "kind": "drawing",
+      "topic": "right_of_way",
+      "source": "U-turn / turning across traffic",
+      "situation": "YOU want to U-turn on a two-way street. Car A approaches from ahead. Pedestrian P near your turning arc.",
+      "question": "When is the U-turn acceptable?",
+      "options": [
+        "Anytime you feel like it if local rules allow racing turns",
+        "Only where allowed, and only when you will not endanger or hinder A, P, or others — wait for a clear gap",
+        "If you have ABS you may cut in front of A",
+        "U-turns cancel zebra rules"
+      ],
+      "answer": 1,
+      "explanation": "U-turns are allowed only where not prohibited and must not endanger or unnecessarily hinder others. Yield to A and protect pedestrians in your arc.",
+      "diagramAscii": "YOU U-turn arc; A oncoming; P nearby.",
+      "diagramSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" width=\"100%\" height=\"auto\" role=\"img\" aria-label=\"Traffic situation diagram\"><rect width=\"320\" height=\"240\" fill=\"#1a2838\"/><rect x=\"0\" y=\"90\" width=\"320\" height=\"60\" fill=\"#3a4a62\"/><line x1=\"0\" y1=\"120\" x2=\"320\" y2=\"120\" stroke=\"#8a9bb0\" stroke-width=\"1\" stroke-dasharray=\"6 6\"/><polygon points=\"134,145 110,136 110,154\" fill=\"#3d9cf0\" stroke=\"#041018\" stroke-width=\"1\"/><circle cx=\"120\" cy=\"145\" r=\"3\" fill=\"#041018\"/><text x=\"120\" y=\"167\" fill=\"#3d9cf0\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">YOU</text><rect x=\"246.0\" y=\"96.0\" width=\"28\" height=\"18\" rx=\"3\" fill=\"#e8eef7\" stroke=\"#041018\" stroke-width=\"1\"/><text x=\"260\" y=\"126.0\" fill=\"#e8eef7\" font-size=\"10\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">A</text><circle cx=\"120\" cy=\"66\" r=\"4\" fill=\"#2ecc71\"/><rect x=\"117\" y=\"70\" width=\"6\" height=\"10\" rx=\"1\" fill=\"#2ecc71\"/><text x=\"120\" y=\"88\" fill=\"#2ecc71\" font-size=\"9\" font-family=\"system-ui,sans-serif\" font-weight=\"700\" text-anchor=\"middle\">P</text><path d=\"M130,145 A25,25 0 1,0 130,95\" fill=\"none\" stroke=\"#3d9cf0\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/></svg>"
+    }
   ]
 }

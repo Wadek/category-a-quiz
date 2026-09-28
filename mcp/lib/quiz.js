@@ -116,6 +116,10 @@ export async function createQuizEngine() {
     };
   }
 
+  function isDiagramCard(card) {
+    return !!(card && (card.kind === 'drawing' || card.type === 'diagram' || card.diagramSvg || card.situation));
+  }
+
   function publicCard(card, hideAnswer = true) {
     const base = {
       id: card.id,
@@ -124,10 +128,33 @@ export async function createQuizEngine() {
       question: card.question,
       source: card.source
     };
-    if (card.type === 'mc') base.options = card.options;
+    if (card.kind) base.kind = card.kind;
+    const diagram = isDiagramCard(card);
+    if (diagram) {
+      base.situation = card.situation || null;
+      // Prefer compact ASCII/mermaid for MCP if SVG is large; still include SVG when modest
+      const svg = card.diagramSvg || '';
+      if (svg && svg.length <= 4000) {
+        base.diagramSvg = svg;
+      } else if (svg) {
+        base.diagramSvg = '(svg omitted — too large for MCP payload; use PWA)';
+      }
+      if (card.diagramAscii) base.diagramAscii = card.diagramAscii;
+      if (hideAnswer) {
+        // Situation + diagram first; withhold options until client studied (caller may still request)
+        base.optionsHiddenUntilStudied = true;
+        base.prompt = 'Study the situation/diagram first, then choose an answer.';
+        // Still attach options so MCP clients can present after a beat; mark them clearly
+        if (card.options) base.options = card.options;
+      }
+    }
+    if (card.type === 'mc' || card.type === 'diagram') {
+      if (!base.options && card.options) base.options = card.options;
+    }
     if (!hideAnswer) {
       base.answer = card.answer;
       base.explanation = card.explanation;
+      if (card.options) base.options = card.options;
     }
     return base;
   }
@@ -170,7 +197,7 @@ export async function createQuizEngine() {
     const card = byId[id];
     let correct = null;
     if (chosen !== undefined && chosen !== null) {
-      if (card.type === 'mc') correct = Number(chosen) === card.answer;
+      if (card.type === 'mc' || card.type === 'diagram' || Array.isArray(card.options)) correct = Number(chosen) === card.answer;
       else correct = Boolean(chosen) === Boolean(card.answer);
     }
     stateDoc.cards[id] = review(stateDoc.cards[id] || defaultState(id), q);

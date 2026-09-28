@@ -1,5 +1,5 @@
 /* Category A Quiz service worker — offline shell + card bank */
-const CACHE = 'cat-a-quiz-v1';
+const CACHE = 'cat-a-quiz-v1.1';
 const ASSETS = [
   './',
   './index.html',
